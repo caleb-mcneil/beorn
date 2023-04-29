@@ -1,1 +1,118 @@
-<h1>Hello! This is a test.<?h1>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Beorn Excavators</title>
+    <style>
+        body {
+            background-color: #FED13F;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            color: #000000;
+            font-size: 48px;
+            padding: 50px;
+            background-image: url("excavator.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            text-shadow: 2px 2px #F7C745;
+        }
+
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            width: 80%;
+            color: #000000;
+            text-align: left;
+            box-shadow: 0px 0px 10px #000000;
+            border-radius: 10px;
+            margin-bottom: 50px;
+        }
+
+        th {
+            background-color: #000000;
+            color: #FED13F;
+            padding: 10px;
+        }
+
+        td {
+            padding: 5px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #F7C745;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #FEEB98;
+        }
+
+        .button {
+            background-color: #000000;
+            color: #FED13F;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px #000000;
+            margin-top: 50px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #FED13F;
+            color: #000000;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Beorn Excavators</h1>
+    <table>
+        <tr>
+            <th>Model</th>
+            <th>Weight</th>
+            <th>Bucket Capacity</th>
+            <th>Engine Power</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Beorn EX-100</td>
+            <td>10 tons</td>
+            <td>0.5 cubic meters</td>
+            <td>85 hp</td>
+            <td>$50,000</td>
+        </tr>
+        <tr>
+            <td>Beorn EX-200</td>
+            <td>20 tons</td>
+            <td>1 cubic meter</td>
+            <td>150 hp</td>
+            <td>$80,000</td>
+        </tr>
+        <tr>
+            <td>Beorn EX-300</td>
+            <td>30 tons</td>
+            <td>1.5 cubic meters</td>
+            <td>220 hp</td>
+            <td>$120,000</td>
+        </tr>
+        <tr>
+            <td>Beorn EX-500</td>
+            <td>50 tons</td>
+            <td>2.5 cubic meters</td>
+            <td>350 hp</td>
+            <td>$200,000</td>
+        </tr>
+    </table>
+</body>
+
+</html>
