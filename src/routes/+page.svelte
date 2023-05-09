@@ -1,48 +1,6 @@
 <script lang="ts">
+    import { products } from "$lib/products";
     import ProductLink from "./ProductLink.svelte";
-
-    const products = [
-        {
-            title: "Medium Excavator",
-            image: "https://images.unsplash.com/photo-1551431009-a802eeec77b1?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=400&q=80",
-            price: "$14.99",
-        },
-        {
-            title: "Product Name 1",
-            image: "https://images.unsplash.com/photo-1508423134147-addf71308178?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=400&q=80",
-            price: "$14.99",
-        },
-        {
-            title: "Product Name 2",
-            image: "https://images.unsplash.com/photo-1449247709967-d4461a6a6103?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=400&q=80",
-            price: "$9.99",
-        },
-        {
-            title: "Product Name 3",
-            image: "https://images.unsplash.com/reserve/LJIZlzHgQ7WPSh5KVTCB_Typewriter.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=400&q=80",
-            price: "$9.99",
-        },
-        {
-            title: "Large Excavator",
-            image: "https://images.unsplash.com/photo-1467949576168-6ce8e2df4e13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=400&q=80",
-            price: "$9.99",
-        },
-        {
-            title: "Product Name",
-            image: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=400&q=80",
-            price: "$9.99",
-        },
-        {
-            title: "Product Name",
-            image: "https://images.unsplash.com/photo-1550837368-6594235de85c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=400&q=80",
-            price: "$9.99",
-        },
-        {
-            title: "Product Name",
-            image: "https://images.unsplash.com/photo-1551431009-a802eeec77b1?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=400&q=80",
-            price: "$9.99",
-        },
-    ];
 </script>
 
 <!-- hero image -->
@@ -74,7 +32,7 @@
 <section id="products" class="bg-white py-8">
     <div class="container mx-auto flex items-center flex-wrap pt-4 pb-12">
         {#each products as product}
-            <ProductLink {...product} />
+            <ProductLink {product} />
         {/each}
     </div>
 </section>

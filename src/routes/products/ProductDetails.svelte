@@ -1,20 +1,17 @@
 <script lang="ts">
-    export let title: string;
-    export let image: string;
-    export let price: string;
-    export let description: string;
-    export let stats: Map<string, string>;
-    export let images: Array<string>;
+    import type { Product } from "$lib/products";
+
+    export let product: Product;
 </script>
 
 <!-- TODO: make this look nice -->
 <div class="container mx-auto">
-    <p>{title}</p>
-    <p>{image}</p>
-    <p>{price}</p>
-    <p>{description}</p>
-    <p>{stats}</p>
-    <p>{images}</p>
+    <p>{product.title}</p>
+    <p>{product.image}</p>
+    <p>{product.price}</p>
+    <p>{product.description}</p>
+    <p>{product.stats}</p>
+    <p>{product.images}</p>
 </div>
 
 <div class="container mx-auto px-5 py-2">
