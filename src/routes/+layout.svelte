@@ -69,6 +69,7 @@
     </div>
 </nav>
 
+<!-- Page contents -->
 <slot />
 
 <!-- footer -->

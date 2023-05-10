@@ -7,6 +7,7 @@
 <!-- TODO: make this look nice -->
 <div class="container mx-auto">
     <p>{product.title}</p>
+    <p>{product.slug}</p>
     <p>{product.image}</p>
     <p>{product.price}</p>
     <p>{product.description}</p>
