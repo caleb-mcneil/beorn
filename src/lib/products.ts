@@ -38,8 +38,12 @@ export class Product {
         this.description = product.description;
         this.stats = product.stats;
         this.image = images[`/src/lib/images/${this.slug}/0.jpg`];
-        // TODO: populate this with all the images
         this.images = [];
+        for (const name in images) {
+            if (name.startsWith(`/src/lib/images/${this.slug}/`) && !name.endsWith("/0.jpg")) {
+                this.images.push(images[name])
+            }
+        }
     }
 }
 
