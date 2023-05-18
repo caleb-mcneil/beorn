@@ -1,23 +1,23 @@
 // Load all images. The name convention is:
 // * `images/<product.slug>/0.jpg` : primary images
 // * `images/<product.slug>/#.jpg` : additional images
-const images = import.meta.glob("$lib/images/**/*.jpg", {
-    import: "default",
-    eager: true,
+const images = import.meta.glob('$lib/images/**/*.jpg', {
+    import: 'default',
+    eager: true
 });
 
 // Data to describe a product
 interface ProductData {
     // Title visible in UI
-    title: string;
+    title: string,
     // Slug to lookup images and url path. Must be unique.
-    slug: string;
+    slug: string,
     // Price of the product
-    price: string;
+    price: string,
     // Long form description of the product
-    description: string;
+    description: string,
     // Short form key,value stats
-    stats: Map<string, string>;
+    stats: Map<string, string>,
 }
 
 // Enriched `Product` class that adds additional fields/methods to `ProductData`
@@ -40,10 +40,7 @@ export class Product {
         this.image = images[`/src/lib/images/${this.slug}/0.jpg`];
         this.images = [];
         for (const name in images) {
-            if (
-                name.startsWith(`/src/lib/images/${this.slug}/`) &&
-                !name.endsWith("/0.jpg")
-            ) {
+            if (name.startsWith(`/src/lib/images/${this.slug}/`) && !name.endsWith("/0.jpg")) {
                 this.images.push(images[name]);
             }
         }
