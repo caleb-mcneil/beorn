@@ -1,27 +1,33 @@
 <script lang="ts">
-import type {
-    Product
-} from "$lib/products";
+    import type { Product } from "$lib/products";
 
-export let product: Product;
+    export let product: Product;
 </script>
 
 <!-- TODO: make this look nice -->
-<div class="bg-white">
-    <div class="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8">
+<div class="bg-gray">
+    <div
+        class="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8"
+    >
         <div>
-            <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{product.title}</h2>
+            <h2
+                class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+            >
+                {product.title}
+            </h2>
             <p class="mt-4 text-gray-500">{product.description}</p>
-            <dl class="mt-16 grid grid-cols-1 gap-x-4 gap-y-10 sm:grid-cols-4 sm:gap-y-16 lg:gap-x-8">
+            <dl
+                class="mt-16 grid grid-cols-1 gap-x-4 gap-y-10 sm:grid-cols-4 sm:gap-y-16 lg:gap-x-8"
+            >
                 <div class="border-t border-gray-200 pt-4">
                     <dt class="font-medium text-gray-900">Price</dt>
                     <dd class="mt-2 text-sm text-gray-500">{product.price}</dd>
                 </div>
                 {#each [...product.stats] as [key, value]}
-                <div class="border-t border-gray-200 pt-4">
-                    <dt class="font-medium text-gray-900">{key}</dt>
-                    <dd class="mt-2 text-sm text-gray-500">{value}</dd>
-                </div>
+                    <div class="border-t border-gray-200 pt-4">
+                        <dt class="font-medium text-gray-900">{key}</dt>
+                        <dd class="mt-2 text-sm text-gray-500">{value}</dd>
+                    </div>
                 {/each}
             </dl>
         </div>
@@ -29,29 +35,28 @@ export let product: Product;
             <div class="-m-1 flex flex-wrap md:-m-2">
                 <div class="flex sm:1/1 md:w-1/2 flex-wrap">
                     {#each product.images as image, index}
-                    {#if index % 2 == 0}
-                    <div class="w-full p-1 md:p-2">
-                        <img
-                            alt="gallery"
-                            class="block h-full w-full rounded-sm object-cover object-center"
-                            src={image}
-                            />
-                    </div>
-                    {/if}
+                        {#if index % 2 == 0}
+                            <div class="w-full p-1 md:p-2">
+                                <img
+                                    alt="gallery"
+                                    class="block h-full w-full rounded-sm object-cover object-center"
+                                    src={image}
+                                />
+                            </div>
+                        {/if}
                     {/each}
-
                 </div>
                 <div class="flex sm:1/1 md:w-1/2 flex-wrap">
                     {#each product.images as image, index}
-                    {#if index % 2 == 1}
-                    <div class="w-full p-1 md:p-2">
-                        <img
-                            alt="gallery"
-                            class="block h-full w-full rounded-sm object-cover object-center"
-                            src={image}
-                            />
-                    </div>
-                    {/if}
+                        {#if index % 2 == 1}
+                            <div class="w-full p-1 md:p-2">
+                                <img
+                                    alt="gallery"
+                                    class="block h-full w-full rounded-sm object-cover object-center"
+                                    src={image}
+                                />
+                            </div>
+                        {/if}
                     {/each}
                 </div>
             </div>
