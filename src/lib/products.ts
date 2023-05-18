@@ -16,7 +16,7 @@ interface ProductData {
     price: string,
     // Long form description of the product
     description: string,
-    // Short form key,value stats 
+    // Short form key,value stats
     stats: Map<string, string>,
 }
 
@@ -41,7 +41,7 @@ export class Product {
         this.images = [];
         for (const name in images) {
             if (name.startsWith(`/src/lib/images/${this.slug}/`) && !name.endsWith("/0.jpg")) {
-                this.images.push(images[name])
+                this.images.push(images[name]);
             }
         }
     }
@@ -52,9 +52,15 @@ const productsData: ProductData[] = [
     {
         title: "Camera Lens",
         slug: "camera-lens",
-        description: "some description",
-        stats: new Map(),
-        price: "$14.99",
+        description: "This incredibly compact and lightweight ultra-wide-angle 11mm APS-C prime offers dynamic perspectives, corner-to-corner sharpness, naturally rendered bokeh and large F1.8 aperture. Fast, precise, quiet AF, optical design for refined movies shooting and rugged reliability make it ideal for still and video content creators alike.",
+        stats: new Map<string, string>([
+            ["brand", "Sigma"],
+            ["Focal Length Description", "Standard Zoom"],
+            ["Lens Type", "Standard"],
+            ["Compatible Mountings", "Sony E"],
+            ["Camera Lens Description", "70 mm"],
+        ]),
+        price: "$1,400.99",
     },
     {
         title: "Coffee",
@@ -85,7 +91,7 @@ const productsData: ProductData[] = [
         price: "$9.99",
     },
     {
-        title: "top",
+        title: "Top",
         slug: "top",
         description: "some description",
         stats: new Map(),
@@ -105,7 +111,7 @@ const productsData: ProductData[] = [
         stats: new Map(),
         price: "$9.99",
     },
-]
+];
 
 // Convert from the ProductData interface to the Product class
 export const products: Product[] = [];
@@ -113,5 +119,5 @@ export const productsBySlug: Map<string, Product> = new Map();
 for (const product of productsData) {
     const p = new Product(product);
     products.push(p);
-    productsBySlug.set(p.slug, p)
+    productsBySlug.set(p.slug, p);
 }
