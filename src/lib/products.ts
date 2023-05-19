@@ -54,7 +54,7 @@ const productsData: ProductData[] = [
         slug: "camera-lens",
         description: "This incredibly compact and lightweight ultra-wide-angle 11mm APS-C prime offers dynamic perspectives, corner-to-corner sharpness, naturally rendered bokeh and large F1.8 aperture. Fast, precise, quiet AF, optical design for refined movies shooting and rugged reliability make it ideal for still and video content creators alike.",
         stats: new Map<string, string>([
-            ["brand", "Sigma"],
+            ["Brand", "Sigma"],
             ["Focal Length Description", "Standard Zoom"],
             ["Lens Type", "Standard"],
             ["Compatible Mountings", "Sony E"],
