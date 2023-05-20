@@ -7,25 +7,15 @@
 <section>
     <div class="relative mx-auto max-w-screen-xl px-4 py-8">
         <div class="grid grid-cols-1 items-start gap-8 md:grid-cols-2">
-            <div class="grid grid-cols-2 gap-4 md:grid-cols-1">
+            <div class="grid grid-cols-1 gap-4 md:grid-cols-1">
                 <img
                     alt="primary"
                     src={product.image}
                     class="aspect-square w-full rounded-xl object-cover"
                 />
-
-                <div class="grid grid-cols-2 gap-4 lg:mt-4">
-                    {#each product.images as image}
-                        <img
-                            alt="additional"
-                            src={image}
-                            class="aspect-square w-full rounded-xl object-cover"
-                        />
-                    {/each}
-                </div>
             </div>
 
-            <div class="sticky top-0">
+            <div>
                 <div class="mt-8 flex justify-between">
                     <div class="max-w-[35ch] space-y-2">
                         <h1 class="text-xl font-bold sm:text-2xl">
@@ -37,31 +27,36 @@
                 </div>
 
                 <div class="mt-4 mb-6">
-                    <div class="prose max-w-none">
+                    <div class="prose max-w-none text-justify">
                         <p>{product.description}</p>
                     </div>
                 </div>
-
-                <div class="overflow-x-auto">
-                    <table class="">
-                        <tbody>
-                            {#each [...product.stats] as [key, value]}
-                                <tr>
-                                    <td
-                                        class="border whitespace-nowrap px-4 py-2 text-gray-700"
-                                    >
-                                        {key}
-                                    </td>
-                                    <td
-                                        class="border whitespace-nowrap px-4 py-2 text-gray-700"
-                                        >{value}</td
-                                    >
-                                </tr>
-                            {/each}
-                        </tbody>
+                <div>
+                    <table>
+                        {#each [...product.stats] as [key, value]}
+                            <tr>
+                                <td class="border px-4 py-2 text-gray-700"
+                                    >{key}</td
+                                >
+                                <td class="border px-4 py-2 text-gray-700"
+                                    >{value}</td
+                                >
+                            </tr>
+                        {/each}
                     </table>
                 </div>
             </div>
+        </div>
+        <div
+            class="grid gap-4 mt-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+        >
+            {#each product.images as image}
+                <img
+                    alt="additional"
+                    src={image}
+                    class="aspect-square w-full rounded-xl object-cover"
+                />
+            {/each}
         </div>
     </div>
 </section>
