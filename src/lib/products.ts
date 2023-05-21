@@ -122,31 +122,34 @@ const productsData: ProductData[] = [
       "This is a SE17 Mini excavator. It has a 14 hp engine. These are solid machines perfect for a landscaper, electrician, or a plumber looking to make some extra money. Possibly even a land owner who doesn't want to mess with an overpriced Tractor Loader Backhoe. For digging you can NOT beat an excavator. These machines will dig trenches, stumps, gardens, or anything you can throw at it.\n\n \
     These are simple reliable machines however when needed, accessing spare parts for these machines is not an issue. As they are covered under a manufacturer 2 year powertrain warranty. As a dealer I can have ANY spare part sourced directly from the manufacturer.",
 
-    stats: new Map<string, string>([
-      ["Over all Height:", '87"'],
-      ["Overall Width:", '44"'],
-      ["Length:", '118"'],
-      ["Track to Blade Length:", '65"'],
-      ["Track Length", '54"'],
-
-      ["Weight:", '3750 LB (1700kg)"'],
-
-      ["Engine Brand:", "Briggs and Stratton"],
-      ["Engine Power:", "13.5 HP 10 kW"],
-      ["Fuel:", "Gasoline"],
-      ["Hydraulic Flow:", "7.1 GPM (27 L/min)"],
-      ["Auxiliary Hydraulics:", "Yes"],
-      ["Break Out Force:", "3257 lbf"],
-
-      ["Digging Radius:", '138"'],
-      ["Digging Depth:", '75"'],
-      ["Backfill Blade Width:", '44"'],
-      ["Standard Bucket Width:", '16"'],
-    ]),
+    stats: returnStats(),
 
     price: "$7999.99",
   },
 ];
+
+function returnStats() {
+  fetch("/src/lib/table_data/se17-mini-excavator")
+    .then((response) => response.text())
+    .then((text) => console.log(text));
+  return new Map<string, string>([
+    ["Overall Height", '87"'],
+    ["Overall Width", '44"'],
+    ["Length", '118"'],
+    ["Track to Blade Length", '65"'],
+    ["Track Length", '54"'],
+    ["Weight", '3750 LB (1700kg)"'],
+    ["Engine Brand", "Briggs and Stratton"],
+    ["Engine Power", "13.5 HP 10 kW"],
+    ["Fuel", "Gasoline"],
+    ["Auxiliary Hydraulics", "Yes"],
+    ["Break Out Force", "3257 lbf"],
+    ["Digging Radius", '138"'],
+    ["Digging Depth", '75"'],
+    ["Backfill Blade Width", '44"'],
+    ["Standard Bucket Width", '16"'],
+  ]);
+}
 
 // Convert from the ProductData interface to the Product class
 export const products: Product[] = [];

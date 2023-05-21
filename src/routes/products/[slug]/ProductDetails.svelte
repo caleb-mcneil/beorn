@@ -11,7 +11,7 @@
                 <img
                     alt="primary"
                     src={product.image}
-                    class="aspect-square w-full rounded-xl object-cover"
+                    class="aspect-square w-full object-cover"
                 />
             </div>
 
@@ -54,7 +54,7 @@
                 <img
                     alt="additional"
                     src={image}
-                    class="aspect-square w-full rounded-xl object-cover"
+                    class=" w-full object-cover"
                 />
             {/each}
         </div>
