@@ -116,8 +116,8 @@ const productsData: ProductData[] = [
     price: "$9.99",
   },
   {
-    title: "Excavator",
-    slug: "excavator",
+    title: "SE17 Mini excavator",
+    slug: "se17-mini-excavator",
     description:
       "This is a SE17 Mini excavator. It has a 14 hp engine. These are solid machines perfect for a landscaper, electrician, or a plumber looking to make some extra money. Possibly even a land owner who doesn't want to mess with an overpriced Tractor Loader Backhoe. For digging you can NOT beat an excavator. These machines will dig trenches, stumps, gardens, or anything you can throw at it.\n\n \
     These are simple reliable machines however when needed, accessing spare parts for these machines is not an issue. As they are covered under a manufacturer 2 year powertrain warranty. As a dealer I can have ANY spare part sourced directly from the manufacturer.",
