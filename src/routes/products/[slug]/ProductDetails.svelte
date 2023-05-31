@@ -1,7 +1,7 @@
 <script lang="ts">
     import type { Product } from "$lib/products";
 
-    export let product: Product;
+    export let product: Product;  
 </script>
 
 <section>
@@ -13,6 +13,10 @@
                     src={product.image}
                     class="aspect-square w-full object-cover"
                 />
+                <a href={product.stripe_link} 
+                class="bg-yellow-500 hover:bg-yellow-700 text-black font-bold py-2 px-4 rounded text-center">
+                    Buy Now
+                </a>
             </div>
 
             <div>

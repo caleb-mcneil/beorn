@@ -22,6 +22,8 @@ interface ProductData {
   description: string;
   // Short form key,value stats
   stats: Map<string, string>;
+  // Stripe link
+  stripe_link: string;
 }
 
 // Enriched `Product` class that adds additional fields/methods to `ProductData`
@@ -34,6 +36,7 @@ export class Product {
   // TODO: what is the type of images
   image: any;
   images: Array<any>;
+  stripe_link: string;
 
   constructor(product: ProductData) {
     this.title = product.title;
@@ -51,6 +54,7 @@ export class Product {
         this.images.push(images[name]);
       }
     }
+    this.stripe_link = product.stripe_link;
   }
 }
 
@@ -69,6 +73,7 @@ const productsData: ProductData[] = [
       ["Camera Lens Description", "70 mm"],
     ]),
     price: "$1,400.99",
+    stripe_link: "https://buy.stripe.com/test_4gwaET12p1nZ6kM5kk",
   },
   {
     title: "Coffee",
@@ -76,6 +81,7 @@ const productsData: ProductData[] = [
     description: "some description",
     stats: new Map(),
     price: "$14.99",
+    stripe_link: "https://buy.stripe.com/test_4gwaET12p1nZ6kM5kk",
   },
   {
     title: "Coffee and Cookies",
@@ -83,6 +89,7 @@ const productsData: ProductData[] = [
     description: "some description",
     stats: new Map(),
     price: "$9.99",
+    stripe_link: "https://buy.stripe.com/test_4gwaET12p1nZ6kM5kk",
   },
   {
     title: "Desk",
@@ -90,6 +97,7 @@ const productsData: ProductData[] = [
     description: "some description",
     stats: new Map(),
     price: "$9.99",
+    stripe_link: "https://buy.stripe.com/test_4gwaET12p1nZ6kM5kk",
   },
   {
     title: "Dice",
@@ -97,6 +105,7 @@ const productsData: ProductData[] = [
     description: "some description",
     stats: new Map(),
     price: "$9.99",
+    stripe_link: "https://buy.stripe.com/test_4gwaET12p1nZ6kM5kk",
   },
   {
     title: "Top",
@@ -104,6 +113,7 @@ const productsData: ProductData[] = [
     description: "some description",
     stats: new Map(),
     price: "$9.99",
+    stripe_link: "https://buy.stripe.com/test_4gwaET12p1nZ6kM5kk",
   },
   {
     title: "Travel Cup #1",
@@ -111,6 +121,7 @@ const productsData: ProductData[] = [
     description: "some description",
     stats: new Map(),
     price: "$9.99",
+    stripe_link: "https://buy.stripe.com/test_4gwaET12p1nZ6kM5kk",
   },
   {
     title: "Type Writer",
@@ -118,6 +129,7 @@ const productsData: ProductData[] = [
     description: "some description",
     stats: new Map(),
     price: "$9.99",
+    stripe_link: "https://buy.stripe.com/test_4gwaET12p1nZ6kM5kk",
   },
   {
     title: "SE17 Mini excavator",
@@ -128,6 +140,7 @@ const productsData: ProductData[] = [
 
     stats: returnStats("se17-mini-excavator"),
     price: "$7999.99",
+    stripe_link: "https://buy.stripe.com/test_4gwaET12p1nZ6kM5kk",
   },
 ];
 
