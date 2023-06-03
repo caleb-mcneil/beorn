@@ -72,7 +72,7 @@ const productsData: ProductData[] = [
       ["Compatible Mountings", "Sony E"],
       ["Camera Lens Description", "70 mm"],
     ]),
-    price: "$1,400.99",
+    price: "$1400.99",
     stripe_link: "https://buy.stripe.com/test_4gwaET12p1nZ6kM5kk",
   },
   {

@@ -2,6 +2,21 @@
     import type { Product } from "$lib/products";
 
     export let product: Product;  
+
+    function onAddToCart(slug: string, title: string) {
+        alert(title + " was added to cart");
+        if (slug in localStorage) {
+            let prev = Number(localStorage.getItem(slug))
+            localStorage.setItem(slug, String(prev + 1))
+        } else {
+            localStorage.setItem(slug, "1")
+        }
+        printCart()
+    }
+
+    function printCart() {
+        console.log(localStorage)
+    }
 </script>
 
 <section>
@@ -17,6 +32,9 @@
                 class="bg-yellow-500 hover:bg-yellow-700 text-black font-bold py-2 px-4 rounded text-center">
                     Buy Now
                 </a>
+                <button on:click={() => onAddToCart(product.slug, product.title)} class="bg-yellow-500 hover:bg-yellow-700 text-black font-bold py-2 px-4 rounded text-center">
+                    Add to Cart
+                </button>
             </div>
 
             <div>
