@@ -67,7 +67,7 @@
                     <li>
                         <a
                             class="inline-block no-underline hover:text-black hover:underline py-2 px-4"
-                            href="/cart">View Cart</a
+                            href="/cart">Cart</a
                         >
                     </li>
                 </ul>
