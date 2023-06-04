@@ -35,12 +35,36 @@
             subtotal += price * quantity;
         };
         subtotal = Number(subtotal.toFixed(2))
-        console.log(subtotal)
     }
 
     function removeFromCart(slug: string) {
         localStorage.removeItem(slug)
         loadCart()
+    }
+
+    function makeBody() {
+        let bodyString = "";
+        let i = 0;
+        cart.forEach(function(quantity, product) {
+            bodyString += "line_items[" + i + "][price]=" + product.price_id + "&line_items[" + i + "][quantity]="+ quantity + "&"
+            i = i + 1
+        });
+        return bodyString;
+    }
+    ``
+    function onCheckout() {
+        console.log(makeBody());
+        fetch("https://api.stripe.com/v1/payment_links", {
+            method: "POST", 
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+                'Authorization': 'Bearer rk_test_51NF70oKfjLwasDegOEpvBnshOI5C3ovaRjESmYiveqRUkTBPF5aVMfShrH9g79YGrgN1stcNIn0WZDJsJfsD2nen00wPDWhWyl',
+            },
+            body: makeBody(),
+        })
+        .then(response => response.json())
+        .then(body => window.location.replace(body.url));
+        
     }
 
     loadCart()
@@ -93,7 +117,7 @@
         </div>
         <p class="mt-0.5 text-sm text-gray-500">Shipping and taxes calculated at checkout.</p>
         <div class="mt-6">
-          <a href="/cart" class="flex items-center justify-center bg-yellow-500 hover:bg-yellow-700 text-black font-bold py-2 px-4 rounded text-center">Checkout</a>
+          <button on:click={onCheckout} class="flex items-center justify-center bg-yellow-500 hover:bg-yellow-700 text-black font-bold py-2 px-4 rounded text-center">Checkout</button>
         </div>
         <div class="mt-6 flex justify-center text-center text-sm text-gray-500">
           <p>
