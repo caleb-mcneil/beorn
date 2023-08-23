@@ -1,5 +1,6 @@
 <script lang="ts">
     import { Product, products } from "$lib/products";
+    import { is_empty } from "svelte/internal";
 
     function getProduct(slug: string) {
         for (let i = 0; i < products.length; i++) {
@@ -38,7 +39,17 @@
     }
 
     function removeFromCart(slug: string) {
-        localStorage.removeItem(slug);
+        let x = Number(localStorage.getItem(slug));
+        localStorage.setItem(slug, String(x-1))
+        if (x-1 < 1) {
+            localStorage.removeItem(slug);
+        }
+        loadCart();
+    }
+
+    function addToCart(slug:string) {
+        let x = Number(localStorage.getItem(slug));
+        localStorage.setItem(slug, String(x+1))
         loadCart();
     }
 
@@ -102,6 +113,9 @@
     <div class="my-8">
         <div class="flow-root">
             <ul class="-my-6 divide-y divide-gray-200">
+                {#if localStorage.is_empty}
+                   empty
+                {/if}
                 {#each [...cart] as [product, value]}
                     <li class="flex py-6">
                         <div
@@ -129,11 +143,18 @@
                                     <p class="ml-4">{product.price}</p>
                                 </div>
                             </div>
-                            <div
-                                class="flex flex-1 items-end justify-between text-sm"
-                            >
+                            <div class="flex flex-1 items-end justify-between text-sm">
+                                
                                 <p class="text-gray-500">Qty {value}</p>
-
+                                <div class="flex">
+                                    <button
+                                        on:click={() =>
+                                            addToCart(product.slug)}
+                                        type="button"
+                                        class="font-medium text-indigo-600 hover:text-indigo-500"
+                                        >Add</button
+                                    >
+                                </div>
                                 <div class="flex">
                                     <button
                                         on:click={() =>
