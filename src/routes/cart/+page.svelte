@@ -12,10 +12,12 @@
 
     let cart = new Map<Product, number>();
     let subtotal = Number(0);
+    let printEmptyCartMessage = true;
 
     function loadCart() {
         cart = new Map();
         if (typeof localStorage !== "undefined") {
+            printEmptyCartMessage = localStorage.length < 1;
             for (let i = 0; i < localStorage.length; i++) {
                 let slug = localStorage.key(i);
                 if (slug !== null) {
@@ -102,6 +104,10 @@
         });
     }
 
+    function isCartEmpty() {
+        return localStorage.length < 1;
+    }
+
     loadCart();
 </script>
 
@@ -113,8 +119,15 @@
     <div class="my-8">
         <div class="flow-root">
             <ul class="-my-6 divide-y divide-gray-200">
-                {#if localStorage.is_empty}
-                   empty
+                <div></div>
+                {#if printEmptyCartMessage }
+                <div class="text-2xl font-large text-900 py-2 px-4 text-center">
+                    Your cart is empty
+                    <p class="mt-0.5 text-sm text-gray-500">
+                    You need add products to your cart before you can checkout. Use the View our products button at the bottom of the page.
+
+                    </p>
+                </div>
                 {/if}
                 {#each [...cart] as [product, value]}
                     <li class="flex py-6">
@@ -171,8 +184,9 @@
             </ul>
         </div>
     </div>
-
+    
     <div class="border-t border-gray-200 px-4 py-6 sm:px-6">
+        {#if !printEmptyCartMessage }
         <div class="flex justify-between text-base font-medium text-gray-900">
             <p>Subtotal</p>
             <p>${subtotal}</p>
@@ -187,14 +201,14 @@
                 >Checkout</button
             >
         </div>
+        {/if}
         <div class="mt-6 flex justify-center text-center text-sm text-gray-500">
             <p>
-                or
                 <a
                     href="/#products"
                     class="font-medium text-yellow-700 hover:text-yellow-500"
                 >
-                    Continue Shopping
+                    View our products
                     <span aria-hidden="true"> &rarr;</span>
                 </a>
             </p>
