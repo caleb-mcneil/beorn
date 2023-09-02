@@ -76,7 +76,7 @@ const productsData: ProductData[] = [
       ["Camera Lens Description", "70 mm"],
     ]),
     price: "$7999.99",
-    stripe_link: "",
+    stripe_link: "https://buy.stripe.com/test_4gwaET12p1nZ6kM5kk",
     price_id: "",
   },
   {
@@ -91,7 +91,7 @@ const productsData: ProductData[] = [
       ["Camera Lens Description", "70 mm"],
     ]),
     price: "$7999.99",
-    stripe_link: "",
+    stripe_link: "https://buy.stripe.com/test_4gwaET12p1nZ6kM5kk",
     price_id: "",
   },
   {
@@ -106,7 +106,7 @@ const productsData: ProductData[] = [
       ["Camera Lens Description", "70 mm"],
     ]),
     price: "$7999.99",
-    stripe_link: "",
+    stripe_link: "https://buy.stripe.com/test_4gwaET12p1nZ6kM5kk",
     price_id: "",
   },
   {
@@ -121,7 +121,7 @@ const productsData: ProductData[] = [
       ["Camera Lens Description", "70 mm"],
     ]),
     price: "$7999.99",
-    stripe_link: "",
+    stripe_link: "https://buy.stripe.com/test_4gwaET12p1nZ6kM5kk",
     price_id: "",
   },
   {
@@ -136,7 +136,7 @@ const productsData: ProductData[] = [
       ["Camera Lens Description", "70 mm"],
     ]),
     price: "$7999.99",
-    stripe_link: "",
+    stripe_link: "https://buy.stripe.com/test_4gwaET12p1nZ6kM5kk",
     price_id: "",
   },
   {
@@ -151,7 +151,7 @@ const productsData: ProductData[] = [
       ["Camera Lens Description", "70 mm"],
     ]),
     price: "$7999.99",
-    stripe_link: "",
+    stripe_link: "https://buy.stripe.com/test_4gwaET12p1nZ6kM5kk",
     price_id: "",
   },
   {
