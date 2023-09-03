@@ -125,17 +125,11 @@ const productsData: ProductData[] = [
     price_id: "",
   },
   {
-    title: "SE17",
     slug: "se17",
-    description: "some description",
-    stats: new Map<string, string>([
-      ["Brand", "Sigma"],
-      ["Focal Length Description", "Standard Zoom"],
-      ["Lens Type", "Standard"],
-      ["Compatible Mountings", "Sony E"],
-      ["Camera Lens Description", "70 mm"],
-    ]),
-    price: "$7999.99",
+    title: returnTitle("se17"),
+    description: returnDescription("se17"),
+    price: returnPrice("se17"),
+    stats: returnStats("se17"),
     stripe_link: "https://buy.stripe.com/test_4gwaET12p1nZ6kM5kk",
     price_id: "",
   },
@@ -157,14 +151,37 @@ const productsData: ProductData[] = [
 ];
 
 function returnStats(slug: string) {
+  let title = "";
+  let price = "";
+  let description = "";
   const map = new Map();
   let text = data[`/src/lib/table_data/${slug}.csv`];
   let lines = text.split("\n");
   for (let i = 0; i < lines.length; i++) {
-    const [key, value] = lines[i].split(",");
-    map.set(key, value);
+    if (i > 2) {
+      const [key, value] = lines[i].split(",");
+      map.set(key, value);
+    }
   }
   return map;
+}
+
+function returnTitle(slug: String) {
+  let text = data[`/src/lib/table_data/${slug}.csv`];
+  let lines = text.split("\n");
+  return lines[0];
+}
+
+function returnPrice(slug: String) {
+  let text = data[`/src/lib/table_data/${slug}.csv`];
+  let lines = text.split("\n");
+  return lines[1];
+}
+
+function returnDescription(slug: String) {
+  let text = data[`/src/lib/table_data/${slug}.csv`];
+  let lines = text.split("\n");
+  return lines[2];
 }
 
 // Convert from the ProductData interface to the Product class
