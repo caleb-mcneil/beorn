@@ -43,16 +43,11 @@
                     src={product.image}
                     class="aspect-square w-full object-cover bg-slate-200"
                 />
-                <a
-                    href={product.stripe_link}
-                    class="bg-yellow-500 hover:bg-yellow-700 text-black font-bold py-2 px-4 rounded text-center"
-                >
+                <a href="/cart" 
+                class="bg-yellow-500 hover:bg-yellow-700 text-black font-bold py-2 px-4 rounded text-center">
                     Buy Now
                 </a>
-                <button
-                    on:click={() => onAddToCart(product.slug, product.title)}
-                    class="bg-yellow-500 hover:bg-yellow-700 text-black font-bold py-2 px-4 rounded text-center"
-                >
+                <!-- <button on:click={() => onAddToCart(product.slug, product.title)} class="bg-yellow-500 hover:bg-yellow-700 text-black font-bold py-2 px-4 rounded text-center">
                     Add to Cart
                 </button>
                 {#if showAlertMessage}
@@ -70,7 +65,7 @@
                         >
                         <p>{alertMessage}</p>
                     </div>
-                {/if}
+                {/if} -->
             </div>
 
             <div>

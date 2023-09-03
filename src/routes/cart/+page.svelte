@@ -112,9 +112,9 @@
 </script>
 
 <section class="mx-auto px-6" style="max-width:600px">
-    <h1 class="text-3xl font-large text-gray-900" id="slide-over-title">
+    <!-- <h1 class="text-3xl font-large text-gray-900" id="slide-over-title">
         Shopping cart
-    </h1>
+    </h1> -->
 
     <div class="my-8">
         <div class="flow-root">
@@ -122,9 +122,9 @@
                 <div></div>
                 {#if printEmptyCartMessage }
                 <div class="text-2xl font-large text-900 py-2 px-4 text-center">
-                    Your cart is empty
+                    Email us at beorn@gmail.com to place an order
                     <p class="mt-0.5 text-sm text-gray-500">
-                    You need add products to your cart before you can checkout. Use the View our products button at the bottom of the page.
+                    Please include the products you would like and the quantity. We will be in touch to process your order.
 
                     </p>
                 </div>
