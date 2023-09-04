@@ -1,17 +1,12 @@
 <script lang="ts">
     import { products } from "$lib/products";
     import ProductLink from "./ProductLink.svelte";
-
-    const images = import.meta.glob("$lib/images/*.svg", {
-        import: "default",
-        eager: true,
-    });
 </script>
 
 <!-- hero image -->
 <section
-    class="w-full mx-auto bg-nordic-gray-light flex pt-12 md:pt-0 md:items-center bg-cover bg-right"
-    style="max-width:1600px; height: 32rem; background-image: url({images[`/src/lib/images/cropped_background.svg`]});"
+    class="w-full mx-auto flex pt-12 md:pt-0 md:items-center bg-amber-200"
+    style="max-width:1600px; height: 16rem;"
 >
     <div class="container mx-auto">
         <div
