@@ -1,10 +1,10 @@
 [
     {
-        "title": "DC08",
+        "title": "DC08_TESt",
         "slug": "dc08",
         "description": "some description",
-        "price": "$7999.99",
-        "stats": {
+        "price": "$0000.99",
+        "stats":  {
             "Brand": "Sigma",
             "Focal Length Description": "Standard Zoom",
             "Lens Type": "Standard",
