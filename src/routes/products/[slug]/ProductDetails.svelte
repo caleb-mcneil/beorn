@@ -41,7 +41,7 @@
                 <img
                     alt="primary"
                     src={product.image}
-                    class="aspect-square w-full object-cover bg-slate-200"
+                    class="aspect-square w-full object-cover bg-slate-100"
                 />
                 <a
                     href={product.stripe_link}
@@ -112,7 +112,7 @@
                 <img
                     alt="additional"
                     src={image}
-                    class=" w-full object-cover bg-slate-200"
+                    class=" w-full object-cover bg-slate-100"
                 />
             {/each}
         </div>

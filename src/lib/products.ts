@@ -1,7 +1,7 @@
 // Load all images. The name convention is:
-// * `images/<product.slug>/0.png` : primary images
-// * `images/<product.slug>/#.png` : additional images
-const images = import.meta.glob("$lib/images/**/*.png", {
+// * `images/<product.slug>/00.webp` : primary images
+// * `images/<product.slug>/##.webp` : additional images
+const images = import.meta.glob("$lib/images/**/*.webp", {
   import: "default",
   eager: true,
 });
@@ -47,12 +47,12 @@ export class Product {
     this.price = product.price;
     this.description = product.description;
     this.stats = product.stats;
-    this.image = images[`/src/lib/images/${this.slug}/0.png`];
+    this.image = images[`/src/lib/images/${this.slug}/00.webp`];
     this.images = [];
     for (const name in images) {
       if (
         name.startsWith(`/src/lib/images/${this.slug}/`) &&
-        !name.endsWith("/0.png")
+        !name.endsWith("/00.webp")
       ) {
         this.images.push(images[name]);
       }

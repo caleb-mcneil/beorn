@@ -1,10 +1,10 @@
- [
+[
     {
         "title": "DC08",
         "slug": "dc08",
         "description": "some description",
         "price": "$7999.99",
-        "stats":  {
+        "stats": {
             "Brand": "Sigma",
             "Focal Length Description": "Standard Zoom",
             "Lens Type": "Standard",
@@ -18,7 +18,7 @@
         "slug": "se08",
         "description": "some description",
         "price": "$7999.99",
-        "stats":  {
+        "stats": {
             "Brand": "Sigma"
         }
     },
@@ -27,7 +27,7 @@
         "slug": "se10",
         "description": "some description",
         "price": "$7999.99",
-        "stats":  {
+        "stats": {
             "Brand": "Sigma"
         }
     },
@@ -36,7 +36,7 @@
         "slug": "se10p",
         "description": "some description",
         "price": "$7999.99",
-        "stats":  {
+        "stats": {
             "Brand": "Sigma"
         }
     },
@@ -45,7 +45,7 @@
         "slug": "se17",
         "description": "some description",
         "price": "$7999.99",
-        "stats":  {
+        "stats": {
             "Brand": "Sigma"
         }
     },
@@ -54,7 +54,7 @@
         "slug": "se17p",
         "description": "some description",
         "price": "$7999.99",
-        "stats":  {
+        "stats": {
             "Brand": "Sigma"
         }
     },
@@ -63,7 +63,7 @@
         "slug": "sqc01",
         "description": "some description",
         "price": "$7999.99",
-        "stats":  {
+        "stats": {
             "Brand": "Sigma"
         }
     },
@@ -72,7 +72,7 @@
         "slug": "tb06",
         "description": "some description",
         "price": "$7999.99",
-        "stats":  {
+        "stats": {
             "Brand": "Sigma"
         }
     },
@@ -81,7 +81,7 @@
         "slug": "r14",
         "description": "some description",
         "price": "$7999.99",
-        "stats":  {
+        "stats": {
             "Brand": "Sigma"
         }
     },
@@ -90,7 +90,7 @@
         "slug": "rsb30",
         "description": "some description",
         "price": "$7999.99",
-        "stats":  {
+        "stats": {
             "Brand": "Sigma"
         }
     },
@@ -99,7 +99,7 @@
         "slug": "sb24",
         "description": "some description",
         "price": "$7999.99",
-        "stats":  {
+        "stats": {
             "Brand": "Sigma"
         }
     },
@@ -108,7 +108,7 @@
         "slug": "tb08",
         "description": "some description",
         "price": "$7999.99",
-        "stats":  {
+        "stats": {
             "Brand": "Sigma"
         }
     },
@@ -117,7 +117,7 @@
         "slug": "sp25mm01",
         "description": "some description",
         "price": "$7999.99",
-        "stats":  {
+        "stats": {
             "Brand": "Sigma"
         }
     },
@@ -126,7 +126,34 @@
         "slug": "tp25mm01",
         "description": "some description",
         "price": "$7999.99",
-        "stats":  {
+        "stats": {
+            "Brand": "Sigma"
+        }
+    },
+    {
+        "title": "AB07D36H30",
+        "slug": "ab07d36h30",
+        "description": "some description",
+        "price": "$7999.99",
+        "stats": {
+            "Brand": "Sigma"
+        }
+    },
+    {
+        "title": "AB12D36H30",
+        "slug": "ab12d36h30",
+        "description": "some description",
+        "price": "$7999.99",
+        "stats": {
+            "Brand": "Sigma"
+        }
+    },
+    {
+        "title": "AM01H30",
+        "slug": "am01h30",
+        "description": "some description",
+        "price": "$7999.99",
+        "stats": {
             "Brand": "Sigma"
         }
     }

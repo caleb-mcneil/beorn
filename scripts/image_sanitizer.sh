@@ -20,8 +20,22 @@ for input_image in "$@"; do
     continue
   fi
 
-  # Create an output image name based on the input image name
-  output_image="${input_image%.png}_processed.png"
+  # Extract folder and file name components from the input image path
+  input_folder=$(dirname "$input_image")
+  input_filename=$(basename "$input_image")
+
+  # Extract the desired folder name by looking at everything before the underscore in the original file name
+  folder_name="${input_filename%%_*}"
+  folder_name="${folder_name,,}" # make lowercase
+  file_name="${input_filename%%.*}"  # Removes everything after the last dot (.)
+  file_name="${file_name##*_}"  # Removes everything before the last underscore (_)
+
+  # Create an output image path based on the desired folder name and input image path
+  output_folder="src/lib/images/${folder_name}"
+  output_image="${output_folder}/${file_name}.webp"
+
+  # Create the output folder if it doesn't exist
+  mkdir -p "$output_folder"
 
   # Crop the image to its contents
   convert "$input_image" -trim +repage "$output_image"
@@ -40,11 +54,8 @@ for input_image in "$@"; do
   # Pad the image to a square aspect ratio
   convert "$output_image" -gravity center -background "rgba(0,0,0,0)" -extent "${size}x${size}" "$output_image"
 
-  # Add a 50px border around the image
-  convert "$output_image" -bordercolor "rgba(0,0,0,0)" -border 20x20 "$output_image"
-
-  # Resize the image to 512x512
-  convert "$output_image" -resize 512x512 "$output_image"
+  # Resize the image to desired resolution
+  convert "$output_image" -resize 1024x1024 "$output_image"
 
   # Strip metadata from the image
   convert "$output_image" -strip "$output_image"
