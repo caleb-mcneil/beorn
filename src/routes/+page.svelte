@@ -3,6 +3,8 @@
     import ProductLink from "./ProductLink.svelte";
 </script>
 
+<title>Beorn LLC</title>
+
 <!-- hero image -->
 <section
     class="w-full mx-auto flex pt-12 md:pt-0 md:items-center bg-amber-200"

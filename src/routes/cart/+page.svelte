@@ -111,6 +111,8 @@
     loadCart();
 </script>
 
+<title>Beorn LLC: Cart</title>
+
 <section class="mx-auto px-6" style="max-width:600px">
     <h1 class="text-3xl font-large text-gray-900" id="slide-over-title">
         Shopping cart
