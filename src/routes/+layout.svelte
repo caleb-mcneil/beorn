@@ -53,7 +53,7 @@
                     <li>
                         <a
                             class="inline-block no-underline hover:text-black hover:underline py-2 px-4"
-                            href="mailto:beorn@gmail.com">beorn@gmail.com</a
+                            href="mailto:beornllc@gmail.com">beornllc@gmail.com</a
                         >
                     </li>
                     <li>|</li>
@@ -106,7 +106,7 @@
                         <li>
                             <a
                                 class="inline-block no-underline hover:text-black hover:underline py-1"
-                                href="mailto:beorn@gmail.com">beorn@gmail.com</a
+                                href="mailto:beornllc@gmail.com">beornllc@gmail.com</a
                             >
                         </li>
                     </ul>
