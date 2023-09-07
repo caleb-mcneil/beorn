@@ -59,39 +59,61 @@
         }
     },
     {
-        "title": "SQC01",
+        "title": "Quick Connect Coupler",
         "slug": "sqc01",
-        "description": "some description",
-        "price": "$7999.99",
+        "description": "",
+        "price": "$300",
         "stats": {
-            "Brand": "Sigma"
+            "Compatible Equipment": "SE17, SE10, and SE08 Series Excavators"
+            "L": "8.5 in / 22 cm"
+            "W": "6 in / 15 cm"
+            "H": "7 in / 18 cm"
+            "Weight": "17 lb / 8 kg"
+            "Part Number": "SQC01"
         }
     },
     {
-        "title": "TB06",
+        "title": "6 in Toothed Trenching Bucket",
         "slug": "tb06",
-        "description": "some description",
-        "price": "$7999.99",
+        "description": "",
+        "price": "$180",
         "stats": {
-            "Brand": "Sigma"
+            "Compatible Equipment": "SE17, SE10, and SE08 Series Excavators"
+            "L": "18 in / 46 cm"
+            "W": "8.5 in / 22 cm"
+            "H": "13.5 in / 34 cm"
+            "Weight": "37 lb / 18.5 kg"
+            "Part Number": "TB06"
         }
     },
     {
-        "title": "R14",
+        "title": "14 in Ripper Claw",
         "slug": "r14",
-        "description": "some description",
-        "price": "$7999.99",
+        "description": "",
+        "price": "$200.00",
         "stats": {
-            "Brand": "Sigma"
+            "Compatible Equipment": "SE17, SE10, and SE08 Series Excavators"
+            "Tooth Width": "2 in / 5 cm"
+            "L": "18 in / 47 cm"
+            "W": "5.5 in / 14 cm"
+            "H": "8 in / 20 cm"
+            "Weight": "23 lb / 10 kg"
+            "Part Number": "R14"
         }
     },
     {
-        "title": "RSB30",
+        "title": "30 in Articulating Smooth Bucket",
         "slug": "rsb30",
-        "description": "some description",
-        "price": "$7999.99",
+        "description": "",
+        "price": "$610",
         "stats": {
-            "Brand": "Sigma"
+            "Compatible Equipment": "SE17, SE10, and SE08 Series Excavators"
+            "Hydraulic Hose Length": "84 in / 213 cm"
+            "L": "20 in / 51 cm"
+            "W": "32 in / 81 cm"
+            "H": "22 in / 59 cm"
+            "Weight": "85 lb / 29 kg"
+            "Part Number": "RSB30"
         }
     },
     {
@@ -201,6 +223,7 @@
             "L": "22 in / 55 cm"
             "W": "8 in / 22 cm"
             "H": "6 in / 15 cm"
+            "Hydraulic Hose Length": "72 in / 183 cm"
             "Hydraulic Fitting": "14 mm x 1.5 mm Straight Thread O-Ring"
             "Part Number": "AM01H30"
         }
