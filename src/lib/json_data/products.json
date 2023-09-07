@@ -149,12 +149,24 @@
         }
     },
     {
-        "title": "AM01H30",
+        "title": "Auger Motor 30mm Hex Drive",
         "slug": "am01h30",
-        "description": "some description",
-        "price": "$7999.99",
+        "description": "Hydraulic Auger 30mm hex drive.",
+        "price": "$770.00",
         "stats": {
-            "Brand": "Sigma"
+            "Compatible Equipment": "SE17, SE10, and SE08 Series Excavators"
+            "Compatible Auger Bits": "AB12D36H30 (12 in Dia 40 in long Auger Bit), AB07D36H30 (7 in Dia 40 in long Auger Bit) "
+            "Mount Pin Length": "4.75 in / 120 mm"
+            "Mount Pin Dia": ".98 in / 25 mm "
+            "Hex Pin Length": ".98 in / 25 mm "
+            "Hex Pin Dia": ".375 in / 10 mm "
+            "Drive": "30mm hex"
+            "Weight": "59 lb / 26 kg"
+            "L": "22 in / 55 cm"
+            "W": "8 in / 22 cm"
+            "H": "6 in / 15 cm"
+            "Hydraulic Fitting": "14 mm x 1.5 mm Straight Thread O-Ring"
+            "Part Number": "AM01H30"
         }
     }
 ]
