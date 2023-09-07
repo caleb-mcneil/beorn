@@ -95,61 +95,98 @@
         }
     },
     {
-        "title": "SB24",
+        "title": "24 in Smooth Bucket",
         "slug": "sb24",
-        "description": "some description",
-        "price": "$7999.99",
+        "description": "",
+        "price": "$300",
         "stats": {
-            "Brand": "Sigma"
+            "Compatible Equipment": "SE17, SE10, and SE08 Series Excavators"
+            "L": "13 in / 33 cm"
+            "W": "24 in / 60 cm"
+            "H": "15 in / 38 cm"
+            "Weight": "56 lb / 25 kg"
+            "Part Number": "SB24"
         }
     },
     {
-        "title": "TB08",
+        "title": "8 in Toothed Trenching Bucket",
         "slug": "tb08",
-        "description": "some description",
-        "price": "$7999.99",
+        "description": "",
+        "price": "$210",
         "stats": {
-            "Brand": "Sigma"
+            "Compatible Equipment": "SE17, SE10, and SE08 Series Excavators"
+            "L": "20 in / 50 cm"
+            "W": "9.5 in / 24 cm"
+            "H": "13.5 in / 34 cm"
+            "Weight": "41 lb / 18.5 kg"
+            "Part Number": "TB08"
         }
     },
     {
         "title": "SP25MM01",
         "slug": "sp25mm01",
-        "description": "some description",
-        "price": "$7999.99",
+        "description": "",
+        "price": "$21",
         "stats": {
-            "Brand": "Sigma"
+            "Diameter": ".98 in / 25 mm"
+            "L": "6 in / 150 cm"
+            "W": "1.25 in / 3 cm"
+            "H": "1.25 in / 3 cm"
+            "Weight": "1.4 lb / .6 kg"
+            "Part Number": "SP25MM01"
         }
     },
     {
         "title": "TP25MM01",
         "slug": "tp25mm01",
-        "description": "some description",
-        "price": "$7999.99",
+        "description": "",
+        "price": "$21",
         "stats": {
-            "Brand": "Sigma"
+            "Diameter": ".98 in / 25 mm"
+            "Retainer Diameter": "3/8 in / 10 mm"
+            "L": "5.5 in / 14 cm"
+            "W": "3 in / 8 cm"
+            "H": "2 in / 5 cm"
+            "Weight": "1.2 lb / .5 kg"
+            "Part Number": "TP25MM01"
         }
     },
     {
-        "title": "AB07D36H30",
+        "title": "8 in x 40 in Auger Bit (AB07D36H30)",
         "slug": "ab07d36h30",
-        "description": "some description",
-        "price": "$7999.99",
+        "description": "8 in diameter by 40 in long auger bit. Replaceable edge teeth. (retaining pin included)",
+        "price": "$260",
         "stats": {
-            "Brand": "Sigma"
+            "Compatible Auger Motor": "AM01H30 (Auger Motor 30mm Hex Drive)"
+            "Drive": "30mm hex"
+            "Hex Pin Length": "2.25 in / 57 mm "
+            "Hex Pin Dia": ".375 in / 10 mm "
+            "Weight": "20 lb / 9 kg"
+            "L": "40 in / 101 cm"
+            "W": "8 in / 20 cm"
+            "H": "8 in / 20 cm"
+            "Part Number": "AB07D36H30"
         }
     },
     {
-        "title": "AB12D36H30",
+        "title": "12 in x 40 in Auger Bit (AB12D36H30)",
         "slug": "ab12d36h30",
-        "description": "some description",
-        "price": "$7999.99",
+        "description": "12 in diameter by 40 in long auger bit. Replaceable edge teeth. (retaining pin included)",
+        "price": "$260",
         "stats": {
-            "Brand": "Sigma"
+            "Compatible Auger Motor": "AM01H30 (Auger Motor 30mm Hex Drive)"
+            "Drive": "30mm hex"
+            "Hex Pin Length": "2.25 in / 57 mm "
+            "Hex Pin Dia": ".375 in / 10 mm "
+            "Weight": "32 lb / 14 kg"
+            "L": "40 in / 101 cm"
+            "W": "12 in / 30 cm"
+            "H": "12 in / 30 cm"
+            "Part Number": "AB12D36H30"
         }
     },
     {
-        "title": "Auger Motor 30mm Hex Drive",
+        "title": "Auger Motor 30mm Hex Drive (AM01H30)",
         "slug": "am01h30",
         "description": "Hydraulic Auger 30mm hex drive.",
         "price": "$770.00",
@@ -158,9 +195,8 @@
             "Compatible Auger Bits": "AB12D36H30 (12 in Dia 40 in long Auger Bit), AB07D36H30 (7 in Dia 40 in long Auger Bit) "
             "Mount Pin Length": "4.75 in / 120 mm"
             "Mount Pin Dia": ".98 in / 25 mm "
-            "Hex Pin Length": ".98 in / 25 mm "
-            "Hex Pin Dia": ".375 in / 10 mm "
             "Drive": "30mm hex"
+            "Hex Pin Dia": ".375 in / 10 mm "
             "Weight": "59 lb / 26 kg"
             "L": "22 in / 55 cm"
             "W": "8 in / 22 cm"
