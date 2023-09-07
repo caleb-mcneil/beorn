@@ -65,7 +65,9 @@
         "price": "$300",
         "stats": {
             "Compatible Equipment": "SE17, SE10, and SE08 Series Excavators",
-            "Length": "8.5 in / 22 cm",
+            "Compatible Attachments": " (TB06 (6 in Toothed Trenching Bucket (TB06), 14 in Ripper Claw (R14), 30 in Articulating Smooth Bucket (ASB30), 24 in Smooth Bucket (SB24), 8 in Toothed Trenching Bucket (TB08), Auger Motor 30mm Hex Drive (AM01H30) )",
+            "Hex Drive Size": "13/16 in / 21 mm",
+            "L": "8.5 in / 22 cm",
             "W": "6 in / 15 cm",
             "H": "7 in / 18 cm",
             "Weight": "17 lb / 8 kg",
@@ -73,13 +75,14 @@
         }
     },
     {
-        "title": "6 in Toothed Trenching Bucket",
+        "title": "6 in Toothed Trenching Bucket (TB06)",
         "slug": "tb06",
         "description": "",
         "price": "$180",
         "stats": {
             "Compatible Equipment": "SE17, SE10, and SE08 Series Excavators",
-            "Length": "18 in / 46 cm",
+            "Compatible Pins": " (SP25MM01 25 mm pin)",
+            "L": "18 in / 46 cm",
             "W": "8.5 in / 22 cm",
             "H": "13.5 in / 34 cm",
             "Weight": "37 lb / 18.5 kg",
@@ -87,14 +90,15 @@
         }
     },
     {
-        "title": "14 in Ripper Claw",
+        "title": "14 in Ripper Claw (R14)",
         "slug": "r14",
         "description": "",
         "price": "$200.00",
         "stats": {
             "Compatible Equipment": "SE17, SE10, and SE08 Series Excavators",
+            "Compatible Pins": " (SP25MM01 25 mm pin)",
             "Tooth Width": "2 in / 5 cm",
-            "Length": "18 in / 47 cm",
+            "L": "18 in / 47 cm",
             "W": "5.5 in / 14 cm",
             "H": "8 in / 20 cm",
             "Weight": "23 lb / 10 kg",
@@ -102,28 +106,30 @@
         }
     },
     {
-        "title": "30 in Articulating Smooth Bucket",
+        "title": "30 in Articulating Smooth Bucket (ASB30)",
         "slug": "rsb30",
         "description": "",
         "price": "$610",
         "stats": {
             "Compatible Equipment": "SE17, SE10, and SE08 Series Excavators",
+            "Compatible Pins": " (SP25MM01 25 mm pin)",
             "Hydraulic Hose Length": "84 in / 213 cm",
-            "Length": "20 in / 51 cm",
+            "L": "20 in / 51 cm",
             "W": "32 in / 81 cm",
             "H": "22 in / 59 cm",
             "Weight": "85 lb / 29 kg",
-            "Part Number": "RSB30"
+            "Part Number": "ASB30"
         }
     },
     {
-        "title": "24 in Smooth Bucket",
+        "title": "24 in Smooth Bucket (SB24)",
         "slug": "sb24",
         "description": "",
         "price": "$300",
         "stats": {
             "Compatible Equipment": "SE17, SE10, and SE08 Series Excavators",
-            "Length": "13 in / 33 cm",
+            "Compatible Pins": " (SP25MM01 25 mm pin)",
+            "L": "13 in / 33 cm",
             "W": "24 in / 60 cm",
             "H": "15 in / 38 cm",
             "Weight": "56 lb / 25 kg",
@@ -131,13 +137,14 @@
         }
     },
     {
-        "title": "8 in Toothed Trenching Bucket",
+        "title": "8 in Toothed Trenching Bucket (TB08)",
         "slug": "tb08",
         "description": "",
         "price": "$210",
         "stats": {
             "Compatible Equipment": "SE17, SE10, and SE08 Series Excavators",
-            "Length": "20 in / 50 cm",
+            "Compatible Pins": "TP25MM01 (25 mm pin)",
+            "L": "20 in / 50 cm",
             "W": "9.5 in / 24 cm",
             "H": "13.5 in / 34 cm",
             "Weight": "41 lb / 18.5 kg",
@@ -151,7 +158,7 @@
         "price": "$21",
         "stats": {
             "Diameter": ".98 in / 25 mm",
-            "Length": "6 in / 150 cm",
+            "L": "6 in / 150 cm",
             "W": "1.25 in / 3 cm",
             "H": "1.25 in / 3 cm",
             "Weight": "1.4 lb / .6 kg",
@@ -166,7 +173,7 @@
         "stats": {
             "Diameter": ".98 in / 25 mm",
             "Retainer Diameter": "3/8 in / 10 mm",
-            "Length": "5.5 in / 14 cm",
+            "L": "5.5 in / 14 cm",
             "W": "3 in / 8 cm",
             "H": "2 in / 5 cm",
             "Weight": "1.2 lb / .5 kg",
@@ -184,7 +191,7 @@
             "Hex Pin Length": "2.25 in / 57 mm ",
             "Hex Pin Dia": ".375 in / 10 mm ",
             "Weight": "20 lb / 9 kg",
-            "Length": "40 in / 101 cm",
+            "L": "40 in / 101 cm",
             "W": "8 in / 20 cm",
             "H": "8 in / 20 cm",
             "Part Number": "AB07D36H30"
@@ -201,7 +208,7 @@
             "Hex Pin Length": "2.25 in / 57 mm ",
             "Hex Pin Dia": ".375 in / 10 mm ",
             "Weight": "32 lb / 14 kg",
-            "Length": "40 in / 101 cm",
+            "L": "40 in / 101 cm",
             "W": "12 in / 30 cm",
             "H": "12 in / 30 cm",
             "Part Number": "AB12D36H30"
@@ -215,16 +222,18 @@
         "stats": {
             "Compatible Equipment": "SE17, SE10, and SE08 Series Excavators",
             "Compatible Auger Bits": "AB12D36H30 (12 in Dia 40 in long Auger Bit), AB07D36H30 (7 in Dia 40 in long Auger Bit) ",
+            "Compatible Pins": "TP25MM01 (25 mm pin)",
             "Mount Pin Length": "4.75 in / 120 mm",
             "Mount Pin Dia": ".98 in / 25 mm ",
             "Drive": "30mm hex",
             "Hex Pin Dia": ".375 in / 10 mm ",
             "Weight": "59 lb / 26 kg",
-            "Length": "22 in / 55 cm",
+            "L": "22 in / 55 cm",
             "W": "8 in / 22 cm",
             "H": "6 in / 15 cm",
             "Hydraulic Hose Length": "72 in / 183 cm",
-            "Hydraulic Fitting": "14 mm x 1.5 mm Straight Thread O-Ring",
+            "Hydraulic Flow Rate": "4-10 gpm / 15-37 lpm",
+            "Hydraulic Fitting": "14 mm x 1.5 mm O-Ring",
             "Part Number": "AM01H30"
         }
     }
