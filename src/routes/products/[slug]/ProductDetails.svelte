@@ -49,11 +49,12 @@
                 >
                     314-514-5969 Call/Text
                 </a>
+
                 <button
-                    on:click={() => onAddToCart(product.slug, product.title)}
+                    href="mailto:beornllc@gmail.com"
                     class="bg-yellow-500 hover:bg-yellow-700 text-black font-bold py-2 px-4 rounded text-center"
                 >
-                    Add to Cart
+                    beornllc@gmail.com
                 </button>
                 {#if showAlertMessage}
                     <div
