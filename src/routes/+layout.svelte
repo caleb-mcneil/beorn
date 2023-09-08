@@ -101,8 +101,7 @@
                         to the everyday consumer. Our prices 
                         give you the ability to use new powerful 
                         equipment in your life. Contact us today 
-                        to get your equipment purchased and 
-                        attachments ordered today.
+                        to get your equipment and attachments.
                     </p>
                 </div>
             </div>
