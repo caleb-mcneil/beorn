@@ -42,7 +42,7 @@
                     alt="primary"
                     src={product.image}
                     class="aspect-square w-full object-cover bg-slate-100"
-                />
+                >
                 <a
                     <!--href={product.stripe_link}-->
                     href="tel:314-514-5969"
