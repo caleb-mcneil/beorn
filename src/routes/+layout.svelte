@@ -71,12 +71,12 @@
                         >
                     </li>
                     <li>|</li>
-                    <li>
-                        <a
-                            class="inline-block no-underline hover:text-black hover:underline py-2 px-4"
-                            href="/cart">Cart</a
-                        >
-                    </li>
+                    //<li>
+                    //    <a
+                    //        class="inline-block no-underline hover:text-black hover:underline py-2 px-4"
+                    //        href="/cart">Cart</a
+                    //    >
+                    //</li>
                 </ul>
             </nav>
         </div>
