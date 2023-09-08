@@ -44,10 +44,12 @@
                     class="aspect-square w-full object-cover bg-slate-100"
                 />
                 <a
-                    href={product.stripe_link}
+                    <!--href={product.stripe_link}-->
+                    href="tel:314-514-5969"
                     class="bg-yellow-500 hover:bg-yellow-700 text-black font-bold py-2 px-4 rounded text-center"
                 >
-                    Buy Now
+                    <!--Buy Now-->>
+                    314-514-5969 Call/Text
                 </a>
                 <button
                     on:click={() => onAddToCart(product.slug, product.title)}
