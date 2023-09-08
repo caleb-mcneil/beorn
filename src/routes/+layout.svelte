@@ -60,6 +60,13 @@
                     <li>
                         <a
                             class="inline-block no-underline hover:text-black hover:underline py-2 px-4"
+                            href="mailto:314-514-5969">314-514-5969</a
+                        >
+                    </li>
+                    <li>|</li>
+                    <li>
+                        <a
+                            class="inline-block no-underline hover:text-black hover:underline py-2 px-4"
                             href="#about-us">About Us</a
                         >
                     </li>
@@ -105,6 +112,13 @@
                             <a
                                 class="inline-block no-underline hover:text-black hover:underline py-1"
                                 href="mailto:beornllc@gmail.com">beornllc@gmail.com</a
+                            >
+                        </li>
+                        <li>|</li>
+                        <li>
+                            <a
+                                class="inline-block no-underline hover:text-black hover:underline py-2 px-4"
+                                href="mailto:314-514-5969">314-514-5969</a
                             >
                         </li>
                     </ul>
