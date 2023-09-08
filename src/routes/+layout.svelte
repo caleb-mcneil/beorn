@@ -90,12 +90,10 @@
                 <div class="px-3 md:px-0">
                     <h3 class="font-bold text-gray-900">About Us</h3>
                     <p class="py-4">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Maecenas vel mi ut felis tempus commodo nec id erat.
-                        Suspendisse consectetur dapibus velit ut lacinia. Lorem
-                        ipsum dolor sit amet, consectetur adipiscing elit.
-                        Maecenas vel mi ut felis tempus commodo nec id erat.
-                        Suspendisse consectetur dapibus velit ut lacinia.
+                        We bring reliable low cost equipment
+                        to the everyday consumer. Our prices 
+                        give you the ability to use new powerful 
+                        equipment in your life.
                     </p>
                 </div>
             </div>
