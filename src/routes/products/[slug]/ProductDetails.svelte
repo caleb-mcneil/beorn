@@ -47,15 +47,15 @@
                     href="tel:314-514-5969"
                     class="bg-yellow-500 hover:bg-yellow-700 text-black font-bold py-2 px-4 rounded text-center"
                 >
-                    314-514-5969 Call/Text
+                    Call or Text to Buy:314-514-5969 Call/Text
                 </a>
 
-                <button
+                <a
                     href="mailto:beornllc@gmail.com"
                     class="bg-yellow-500 hover:bg-yellow-700 text-black font-bold py-2 px-4 rounded text-center"
                 >
-                    beornllc@gmail.com
-                </button>
+                    Email to Buy: beornllc@gmail.com
+                </a>
                 {#if showAlertMessage}
                     <div
                         class="flex items-center bg-blue-500 text-white text-sm font-bold px-4 py-3 box-overlay"
