@@ -5,6 +5,8 @@
         "description": "",
         "price": "$5,000",
         "stats":  {
+            "Bed Payload": "1700 lb / 800 kg,",
+            "Bed Capacity": "15 ft^3 / 0.43 m^3,",
             "Weight": "1,230 lb / 560 kg",
             "Overall Length": "97 in / 245 cm",
             "Overall Width": "38 in / 97 cm",
@@ -17,7 +19,7 @@
             "Fuel Capacity": "0.8 gal / 3 L",
             "Bed Length": "46 in / 116 cm",
             "Bed Width": "32 in / 95 cm",
-            "Bed Height": "32 in / 81 cm,"  
+            "Bed Height": "18 in / 45 cm,"
         }
     },
     {
