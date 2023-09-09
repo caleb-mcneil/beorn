@@ -29,7 +29,7 @@
             </div>
 
             <div>
-                <div class="mt-8 flex justify-between">
+                <div class="mt-0 md:flex justify-between">
                     <div class="max-w-[35ch] space-y-2">
                         <h1 class="text-xl font-bold sm:text-2xl">
                             {product.title}
