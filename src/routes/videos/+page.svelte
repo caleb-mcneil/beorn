@@ -9,12 +9,12 @@
     <div class="container mx-auto flex flex-wrap pb-12">
         <Video
             title="SE08 Demo"
-            link="https://youtu.be/zrkK7-ysMuY"
+            link="https://www.youtube.com/embed/zrkK7-ysMuY?si=CqMJse7WctG6t6Fq"
         />
 
         <Video
             title="Title"
-            link="https://www.youtube.com/embed/as3qWsbYGWs?origin=http://example.com"
+            link="https://www.youtube.com/embed/zrkK7-ysMuY?si=CqMJse7WctG6t6Fqorigin=http://example.com"
         />
 
         <Video
