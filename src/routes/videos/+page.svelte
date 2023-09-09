@@ -19,7 +19,7 @@
 
         <Video
             title="Title"
-            link="https://www.youtube.com/embed/as3qWsbYGWs?origin=http://example.com"
+            link="https://www.youtube.com/embed/zrkK7-ysMuY?si=CqMJse7WctG6t6Fq?origin=http://example.com"
         />
 
         <Video
