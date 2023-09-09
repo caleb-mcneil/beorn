@@ -61,7 +61,7 @@
                     <li>
                         <a
                             class="inline-block no-underline hover:text-black hover:underline py-2 px-4"
-                            href="tel:314-514-5969">314-514-5969</a
+                            href="tel:314-514-5969">314-514-5969 Call/Text</a
                         >
                     </li>
                     <li>|</li>
