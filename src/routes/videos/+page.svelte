@@ -24,6 +24,10 @@
 
         <Video
             title="Title"
+            link="<iframe width="560" height="315" src="https://www.youtube.com/embed/zrkK7-ysMuY?si=80bgkMMW7rcTRNa_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>"
+        />
+        <Video
+            title="Title"
             link="https://www.youtube.com/embed/as3qWsbYGWs?origin=http://example.com"
         />
     </div>
