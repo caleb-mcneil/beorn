@@ -238,7 +238,7 @@
             "se17",
             "tb06",
             "r14",
-            "rsb30",
+            "asb30",
             "sb24",
             "tb08",
             "am01h30"
@@ -277,7 +277,7 @@
     },
     {
         "title": "30 in Articulating Smooth Bucket (ASB30)",
-        "slug": "rsb30",
+        "slug": "asb30",
         "description": "",
         "price": "$610",
         "stats": {
