@@ -33,7 +33,7 @@
             </div>
         </div>
         <img
-            class="py-6 md:w-1/2"
+            class="py-6 md:w-1/2 h-auto w-full"
             src={lineupImage}
             alt={"line up of equipment"}
         />
