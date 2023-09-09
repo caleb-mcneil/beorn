@@ -35,7 +35,7 @@
 
         <Video
             title="SE10 Demo"
-            link=""
+            link="https://www.youtube.com/embed/CsYZGTKnmhY?si=t3I5sVKOVZ7us5d9"
         />
 
         <Video
