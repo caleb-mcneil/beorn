@@ -24,6 +24,8 @@ interface ProductData {
   video: string;
   // Short form key,value stats
   stats: Map<string, string>;
+  // Array of compatible product slugs
+  compatibleProducts: string[];
 }
 
 // Enriched `Product` class that adds additional fields/methods to `ProductData`
@@ -34,6 +36,7 @@ export class Product {
   description: string;
   video: string;
   stats: Map<string, string>;
+  compatibleProducts: string[];
   // TODO: what is the type of images
   image: any;
   images: Array<any>;
@@ -45,6 +48,7 @@ export class Product {
     this.description = product.description;
     this.video = product.video;
     this.stats = product.stats;
+    this.compatibleProducts = product.compatibleProducts;
     this.image = images[`/src/lib/images/${this.slug}/00.webp`];
     this.images = [];
     for (const name in images) {

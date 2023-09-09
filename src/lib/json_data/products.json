@@ -231,7 +231,18 @@
             "H": "7 in / 18 cm",
             "Weight": "17 lb / 8 kg",
             "Part Number": "SQC01"
-        }
+        },
+        "compatibleProducts": [
+            "se08",
+            "se10",
+            "se17",
+            "tb06",
+            "r14",
+            "rsb30",
+            "sb24",
+            "tb08",
+            "am01h30"
+        ]
     },
     {
         "title": "6 in Toothed Trenching Bucket (TB06)",

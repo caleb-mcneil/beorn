@@ -1,5 +1,5 @@
 <script lang="ts">
-    import type { Product } from "$lib/products";
+    import { productsBySlug, type Product } from "$lib/products";
     import Video from "../../videos/Video.svelte";
 
     export let product: Product;
@@ -59,6 +59,30 @@
                         {/each}
                     </table>
                 </div>
+                {#if product.compatibleProducts}
+                    <h1 class="text-xl font-bold sm:text-2xl py-4">
+                        Compatible Products
+                    </h1>
+                    <div>
+                        <table>
+                            {#each product.compatibleProducts as compatibleProduct}
+                                <tr>
+                                    <a
+                                        target="_self"
+                                        href={`${compatibleProduct}`}
+                                        ><div
+                                            class="border px-4 py-2 text-blue-600 hover:underline hover:text-blue-800"
+                                        >
+                                            {productsBySlug.get(
+                                                compatibleProduct
+                                            )?.title}
+                                        </div></a
+                                    >
+                                </tr>
+                            {/each}
+                        </table>
+                    </div>
+                {/if}
             </div>
         </div>
         <Video title="Video Demo" link={product.video} />
