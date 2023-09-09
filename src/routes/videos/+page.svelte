@@ -13,12 +13,12 @@
         />
 
         <Video
-            title="Title"
+            title="SE08"
             link="https://www.youtube.com/embed/zrkK7-ysMuY?si=CqMJse7WctG6t6Fqorigin=http://example.com"
         />
 
         <Video
-            title="Title"
+            title="Demo"
             link="https://www.youtube.com/embed/zrkK7-ysMuY?si=80bgkMMW7rcTRNa_"
         />
 
