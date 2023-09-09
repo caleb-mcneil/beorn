@@ -8,8 +8,8 @@
 <section id="products" class="bg-white">
     <div class="container mx-auto flex flex-wrap pb-12">
         <Video
-            title="Title"
-            link="https://www.youtube.com/embed/as3qWsbYGWs?origin=http://example.com"
+            title="SE08 Demo"
+            link="https://youtu.be/zrkK7-ysMuY"
         />
 
         <Video
