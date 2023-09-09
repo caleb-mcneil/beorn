@@ -12,9 +12,9 @@
 <!--header-->
 <nav id="header" class="w-full z-30 top-0 py-1">
     <div
-        class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-6 py-3"
+        class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-3"
     >
-        <div class="order-1 md:order-2">
+        <div class="order-1 md:order-2 px-6">
             <a
                 class="flex items-center tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl"
                 href="/"
@@ -45,7 +45,7 @@
             </a>
         </div>
 
-        <div class="order-2 md:order-3 flex items-center" id="nav-content">
+        <div class="order-2 md:order-3 flex items-center px-2" id="nav-content">
             <nav>
                 <ul
                     class="flex items-center justify-between text-base text-gray-700 md:pt-0"
