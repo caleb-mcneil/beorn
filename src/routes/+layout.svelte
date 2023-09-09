@@ -53,14 +53,15 @@
                     <li>
                         <a
                             class="inline-block no-underline hover:text-black hover:underline py-2 px-4"
-                            href="mailto:beornllc@gmail.com">beornllc@gmail.com</a
+                            href="mailto:beornllc@gmail.com"
+                            >beornllc@gmail.com</a
                         >
                     </li>
                     <li>|</li>
                     <li>
                         <a
                             class="inline-block no-underline hover:text-black hover:underline py-2 px-4"
-                            href="tel:314-514-5969">314-514-5969 Call/Text</a 
+                            href="tel:314-514-5969">314-514-5969</a
                         >
                     </li>
                     <li>|</li>
@@ -97,11 +98,10 @@
                 <div class="px-3 md:px-0">
                     <h3 class="font-bold text-gray-900">About Us</h3>
                     <p class="py-4">
-                        We bring reliable low cost equipment
-                        to the everyday consumer. Our prices 
-                        give you the ability to use new powerful 
-                        equipment in your life. Contact us today 
-                        to get your equipment and attachments.
+                        We bring reliable low cost equipment to the everyday
+                        consumer. Our prices give you the ability to use new
+                        powerful equipment in your life. Contact us today to get
+                        your equipment and attachments.
                     </p>
                 </div>
             </div>
@@ -112,13 +112,15 @@
                         <li>
                             <a
                                 class="inline-block no-underline hover:text-black hover:underline py-1"
-                                href="mailto:beornllc@gmail.com">beornllc@gmail.com</a
+                                href="mailto:beornllc@gmail.com"
+                                >beornllc@gmail.com</a
                             >
                         </li>
                         <li>
                             <a
-                                class="inline-block no-underline hover:text-black hover:underline py-2 px-4"
-                                href="tel:314-514-5969">314-514-5969 Call/Text</a 
+                                class="inline-block no-underline hover:text-black hover:underline py-1"
+                                href="tel:314-514-5969"
+                                >314-514-5969 Call/Text</a
                             >
                         </li>
                     </ul>
