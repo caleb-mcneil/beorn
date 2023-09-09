@@ -6,7 +6,7 @@
 <title>Beorn LLC: Videos</title>
 
 <section id="products" class="bg-white">
-    <div class="container mx-auto flex flex-wrap pb-12">
+    <div class="container mx-auto flex flex-wrap pb-12 px-6">
         <Video
             title="SE08 Demo"
             link="https://www.youtube.com/embed/zrkK7-ysMuY?si=CqMJse7WctG6t6Fq"
