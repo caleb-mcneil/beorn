@@ -86,7 +86,16 @@
             </div>
         </div>
         {#if product.video}
-            <Video title="Video Demo" link={product.video} />
+            <div class="h-96 w-full md:w-1/1 xl:w-1/2 py-6">
+                <p class="text-xl font-bold sm:text-2xl">Video Demo</p>
+                <iframe
+                    class="w-full h-full object-cover"
+                    title="Video Demo"
+                    src={product.video}
+                    frameborder="0"
+                    allowfullscreen
+                />
+            </div>
         {/if}
         <div
             class="grid gap-4 mt-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
