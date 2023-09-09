@@ -156,10 +156,10 @@
         "title": "Hydraulic Thumb SE17",
         "slug": "htse17",
         "description": "",
-        "price": "$300",
+        "price": "$500",
         "stats": {
             "Compatible Equipment": "SE17, SE10, and SE08 Series Excavators",
-            "Compatible Attachments": ""
+            "Compatible Attachments": "",
             "Hex Drive Size": "13/16 in / 21 mm",
             "L": "8.5 in / 22 cm",
             "W": "6 in / 15 cm",
@@ -172,10 +172,10 @@
         "title": "Hydraulic Thumb SE10",
         "slug": "htse10",
         "description": "",
-        "price": "$500",
+        "price": "$450",
         "stats": {
             "Compatible Equipment": "SE17, SE10, and SE08 Series Excavators",
-            "Compatible Attachments": ""
+            "Compatible Attachments": "",
             "Hex Drive Size": "13/16 in / 21 mm",
             "L": "8.5 in / 22 cm",
             "W": "6 in / 15 cm",
@@ -188,10 +188,10 @@
         "title": "Mechanical Thumb SE10",
         "slug": "mtse10",
         "description": "",
-        "price": "$400",
+        "price": "$260",
         "stats": {
             "Compatible Equipment": "SE17, SE10, and SE08 Series Excavators",
-            "Compatible Attachments": ""
+            "Compatible Attachments": "",
             "Hex Drive Size": "13/16 in / 21 mm",
             "L": "8.5 in / 22 cm",
             "W": "6 in / 15 cm",
@@ -207,7 +207,7 @@
         "price": "$260",
         "stats": {
             "Compatible Equipment": "SE17, SE10, and SE08 Series Excavators",
-            "Compatible Attachments": ""
+            "Compatible Attachments": "",
             "Hex Drive Size": "13/16 in / 21 mm",
             "L": "8.5 in / 22 cm",
             "W": "6 in / 15 cm",
