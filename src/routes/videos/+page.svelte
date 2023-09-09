@@ -13,8 +13,8 @@
         />
 
         <Video
-            title="SE08"
-            link="https://www.youtube.com/embed/zrkK7-ysMuY?si=CqMJse7WctG6t6Fqorigin=http://example.com"
+            title="SE17PDemo"
+            link="https://www.youtube.com/embed/Kw18-9yWb_0?si=PzcirkCXEyVoVw6B"
         />
 
         <Video
