@@ -20,12 +20,10 @@ interface ProductData {
   price: string;
   // Long form description of the product
   description: string;
+  // Link to an embedded video
+  video: string;
   // Short form key,value stats
   stats: Map<string, string>;
-  // Stripe link
-  stripe_link: string;
-  // id to make custom links
-  price_id: string;
 }
 
 // Enriched `Product` class that adds additional fields/methods to `ProductData`
@@ -34,18 +32,18 @@ export class Product {
   slug: string;
   price: string;
   description: string;
+  video: string;
   stats: Map<string, string>;
   // TODO: what is the type of images
   image: any;
   images: Array<any>;
-  stripe_link: string;
-  price_id: string;
 
   constructor(product: ProductData) {
     this.title = product.title;
     this.slug = product.slug;
     this.price = product.price;
     this.description = product.description;
+    this.video = product.video;
     this.stats = product.stats;
     this.image = images[`/src/lib/images/${this.slug}/00.webp`];
     this.images = [];
@@ -57,8 +55,6 @@ export class Product {
         this.images.push(images[name]);
       }
     }
-    this.stripe_link = product.stripe_link;
-    this.price_id = product.price_id;
   }
 }
 

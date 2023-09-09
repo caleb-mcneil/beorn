@@ -1,5 +1,6 @@
 <script lang="ts">
     import type { Product } from "$lib/products";
+    import Video from "../../videos/Video.svelte";
 
     export let product: Product;
 </script>
@@ -60,6 +61,7 @@
                 </div>
             </div>
         </div>
+        <Video title="Video Demo" link={product.video} />
         <div
             class="grid gap-4 mt-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
         >
