@@ -9,7 +9,7 @@
     <div class="container mx-auto flex flex-wrap pb-12">
         <Video
             title="SE08 Demo"
-            link="https://www.youtube.com/watch?v=zrkK7-ysMuY&ab_channel=BeornLLC"
+            link="https://youtu.be/zrkK7-ysMuY"
         />
 
         <Video
