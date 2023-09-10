@@ -52,8 +52,8 @@ export class Product {
     this.slug = product.slug;
     this.price = product.price;
     this.description = product.description;
-    this.disclaimer product.disclaimer;
-    this.safety_warning string.safety_warning;
+    this.disclaimer = product.disclaimer;
+    this.safety_warning = product.safety_warning;
     this.video = product.video;
     this.stats = product.stats;
     this.compatibleProducts = product.compatibleProducts;
