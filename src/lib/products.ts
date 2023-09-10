@@ -38,6 +38,8 @@ export class Product {
   slug: string;
   price: string;
   description: string;
+  disclaimer: string;
+  safety_warning: string;
   video: string;
   stats: Map<string, string>;
   compatibleProducts: string[];
@@ -50,6 +52,8 @@ export class Product {
     this.slug = product.slug;
     this.price = product.price;
     this.description = product.description;
+    this.disclaimer product.disclaimer;
+    this.safety_warning string.safety_warning;
     this.video = product.video;
     this.stats = product.stats;
     this.compatibleProducts = product.compatibleProducts;
