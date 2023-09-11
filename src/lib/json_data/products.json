@@ -356,14 +356,13 @@
             "H": "2 in / 5 cm",
             "Weight": "1.2 lb / .5 kg",
             "Part Number": "TP25MM01"
-        }
-    },
-    
+        },    
                 "compatibleProducts": [
             "sqc01",
             "tb08",
             "am01h30"
         ]
+    },
     {
         "title": "8 in x 40 in Auger Bit (AB07D36H30)",
         "slug": "ab07d36h30",
@@ -378,9 +377,7 @@
             "W": "8 in / 20 cm",
             "H": "8 in / 20 cm",
             "Part Number": "AB07D36H30"
-        }
-    },
-    
+        },    
                 "compatibleProducts": [
             "se08",
             "se10",
@@ -390,6 +387,7 @@
             "am01h30",
             "ab12d36h30"
         ]
+    },
     {
         "title": "12 in x 40 in Auger Bit (AB12D36H30)",
         "slug": "ab12d36h30",
@@ -404,8 +402,7 @@
             "W": "12 in / 30 cm",
             "H": "12 in / 30 cm",
             "Part Number": "AB12D36H30"
-        }
-    },
+        },
                     "compatibleProducts": [
             "se08",
             "se10",
@@ -415,6 +412,7 @@
             "ab07d36h30",
             "am01h30"
         ]
+    }'
     {
         "title": "Auger Motor 30mm Hex Drive (AM01H30)",
         "slug": "am01h30",
@@ -433,8 +431,7 @@
             "Hydraulic Flow Rate": "4-10 gpm / 15-37 lpm",
             "Hydraulic Fitting": "14 mm x 1.5 mm O-Ring",
             "Part Number": "AM01H30"
-        }
-    },
+        },
                     "compatibleProducts": [
             "se08",
             "se10",
@@ -446,6 +443,7 @@
             "ab07d36h30",
             "tp25mm01"
         ]
+    },
 ]
 
 
