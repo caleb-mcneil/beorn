@@ -165,8 +165,6 @@
         "description": "",
         "price": "$500",
         "stats": {
-            "Compatible Equipment": "SE17, SE10, and SE08 Series Excavators",
-            "Compatible Attachments": "",
             "Hex Drive Size": "13/16 in / 21 mm",
             "L": "8.5 in / 22 cm",
             "W": "6 in / 15 cm",
@@ -181,8 +179,6 @@
         "description": "",
         "price": "$450",
         "stats": {
-            "Compatible Equipment": "SE17, SE10, and SE08 Series Excavators",
-            "Compatible Attachments": "",
             "Hex Drive Size": "13/16 in / 21 mm",
             "L": "8.5 in / 22 cm",
             "W": "6 in / 15 cm",
@@ -197,8 +193,6 @@
         "description": "",
         "price": "$260",
         "stats": {
-            "Compatible Equipment": "SE17, SE10, and SE08 Series Excavators",
-            "Compatible Attachments": "",
             "Hex Drive Size": "13/16 in / 21 mm",
             "L": "8.5 in / 22 cm",
             "W": "6 in / 15 cm",
@@ -213,8 +207,6 @@
         "description": "",
         "price": "$260",
         "stats": {
-            "Compatible Equipment": "SE17, SE10, and SE08 Series Excavators",
-            "Compatible Attachments": "",
             "Hex Drive Size": "13/16 in / 21 mm",
             "L": "8.5 in / 22 cm",
             "W": "6 in / 15 cm",
@@ -229,8 +221,6 @@
         "description": "",
         "price": "$260",
         "stats": {
-            "Compatible Equipment": "SE17, SE10, and SE08 Series Excavators",
-            "Compatible Attachments": " (TB06 (6 in Toothed Trenching Bucket (TB06), 14 in Ripper Claw (R14), 30 in Articulating Smooth Bucket (ASB30), 24 in Smooth Bucket (SB24), 8 in Toothed Trenching Bucket (TB08), Auger Motor 30mm Hex Drive (AM01H30) )",
             "Hex Drive Size": "13/16 in / 21 mm",
             "L": "8.5 in / 22 cm",
             "W": "6 in / 15 cm",
@@ -256,8 +246,6 @@
         "description": "",
         "price": "$180",
         "stats": {
-            "Compatible Equipment": "SE17, SE10, and SE08 Series Excavators",
-            "Compatible Pins": " (SP25MM01 25 mm pin)",
             "L": "18 in / 46 cm",
             "W": "8.5 in / 22 cm",
             "H": "13.5 in / 34 cm",
@@ -271,8 +259,6 @@
         "description": "",
         "price": "$200",
         "stats": {
-            "Compatible Equipment": "SE17, SE10, and SE08 Series Excavators",
-            "Compatible Pins": " (SP25MM01 25 mm pin)",
             "Tooth Width": "2 in / 5 cm",
             "L": "18 in / 47 cm",
             "W": "5.5 in / 14 cm",
@@ -287,8 +273,6 @@
         "description": "",
         "price": "$610",
         "stats": {
-            "Compatible Equipment": "SE17, SE10, and SE08 Series Excavators",
-            "Compatible Pins": " (SP25MM01 25 mm pin)",
             "Hydraulic Hose Length": "84 in / 213 cm",
             "L": "20 in / 51 cm",
             "W": "32 in / 81 cm",
@@ -303,8 +287,6 @@
         "description": "",
         "price": "$300",
         "stats": {
-            "Compatible Equipment": "SE17, SE10, and SE08 Series Excavators",
-            "Compatible Pins": " (SP25MM01 25 mm pin)",
             "L": "13 in / 33 cm",
             "W": "24 in / 60 cm",
             "H": "15 in / 38 cm",
@@ -318,8 +300,6 @@
         "description": "",
         "price": "$210",
         "stats": {
-            "Compatible Equipment": "SE17, SE10, and SE08 Series Excavators",
-            "Compatible Pins": "TP25MM01 (25 mm pin)",
             "L": "20 in / 50 cm",
             "W": "9.5 in / 24 cm",
             "H": "13.5 in / 34 cm",
@@ -362,7 +342,6 @@
         "description": "8 in diameter by 40 in long auger bit. Replaceable edge teeth. (retaining pin included)",
         "price": "$260",
         "stats": {
-            "Compatible Auger Motor": "AM01H30 (Auger Motor 30mm Hex Drive)",
             "Drive": "30mm hex",
             "Hex Pin Length": "2.25 in / 57 mm ",
             "Hex Pin Dia": ".375 in / 10 mm ",
@@ -379,7 +358,6 @@
         "description": "12 in diameter by 40 in long auger bit. Replaceable edge teeth. (retaining pin included)",
         "price": "$260",
         "stats": {
-            "Compatible Auger Motor": "AM01H30 (Auger Motor 30mm Hex Drive)",
             "Drive": "30mm hex",
             "Hex Pin Length": "2.25 in / 57 mm ",
             "Hex Pin Dia": ".375 in / 10 mm ",
@@ -396,9 +374,6 @@
         "description": "Hydraulic Auger 30mm hex drive.",
         "price": "$770",
         "stats": {
-            "Compatible Equipment": "SE17, SE10, and SE08 Series Excavators",
-            "Compatible Auger Bits": "AB12D36H30 (12 in Dia 40 in long Auger Bit), AB07D36H30 (7 in Dia 40 in long Auger Bit) ",
-            "Compatible Pins": "TP25MM01 (25 mm pin)",
             "Mount Pin Length": "4.75 in / 120 mm",
             "Mount Pin Dia": ".98 in / 25 mm ",
             "Drive": "30mm hex",
@@ -413,4 +388,43 @@
             "Part Number": "AM01H30"
         }
     }
+                    "compatibleProducts": [
+            "dc08",
+            "se08",
+            "se10",
+            "se10p",
+            "se17",
+            "se17p",
+            "sqc01",
+            "ab12d36h30",
+            "ab07d36h30",
+            "tp25mm01",
+        ]
+    },
 ]
+
+
+                "compatibleProducts": [
+            "dc08",
+            "se08",
+            "se10",
+            "se10p",
+            "se17",
+            "se17p",
+            "htse17",
+            "htse10",
+            "mtse10",
+            "mtse08",
+            "sqc01",
+            "tb06",
+            "r14",
+            "asb30",
+            "sb24",
+            "tb08",
+            "am01h30",
+            "ab12d36h30",
+            "ab07d36h30",
+            "tp25mm01",
+            "sp25mm01",
+        ]
+    },
