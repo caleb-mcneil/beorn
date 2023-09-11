@@ -20,10 +20,6 @@ interface ProductData {
   price: string;
   // Long form description of the product
   description: string;
-  // Disclaimer of picture and shipping
-  disclaimer: string;
-  // Disclaimer of safety warning
-  safety_warning: string;
   // Link to an embedded video
   video: string;
   // Short form key,value stats
