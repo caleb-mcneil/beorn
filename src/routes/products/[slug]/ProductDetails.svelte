@@ -1,12 +1,11 @@
 <script lang="ts">
     import { productsBySlug, type Product } from "$lib/products";
-    import Video from "../../videos/Video.svelte";
 
     export let product: Product;
 </script>
 
 <section>
-    <div class="relative mx-auto max-w-screen-xl px-4 py-8">
+    <div class="relative mx-auto max-w-screen-xl px-4 pb-8 md:py-8">
         <div class="grid grid-cols-1 items-start gap-8 md:grid-cols-2">
             <div class="grid grid-cols-1 gap-4 md:grid-cols-1">
                 <img
