@@ -40,14 +40,20 @@
                     <p class="text-lg font-bold">{product.price}</p>
                 </div>
 
-                <div class="mt-4 mb-6">
+                <div class="mt-4 mb-4">
                     <div class="prose max-w-none text-justify">
                         <p>{product.description}</p>
                     </div>
                 </div>
-                <div class="mt-4 mb-6">
+                <div class="mt-4 mb-4">
                     <div class="prose max-w-none text-justify">
-                        <p>Disclaimer: All excavators come with a single toothed bucket. The thumb, quick connect adapter, or other attachments that are shown are only for display purposes. All custom ordered and back order equipment has a lead time of 60 days or more.</p>
+                        <p>
+                            <b>Disclaimer:</b> All excavators come with a single
+                            toothed bucket. The thumb, quick connect adapter, or
+                            other attachments that are shown are only for display
+                            purposes. All custom ordered and back order equipment
+                            has a lead time of 60 days or more.
+                        </p>
                     </div>
                 </div>
                 <div>
@@ -113,9 +119,22 @@
                 />
             {/each}
         </div>
-        <div class="prose max-w-none text-justify">
-                <p>    Safety Warning: Improper use of the equipment can lead to severe injury and death. Equipment is to be operated exclusively by a trained individual over the age of 18. Personal protective equipment such as hard hats, high visibility safety vests, eye protection, hearing protection, and steel toe boots are required. The purchaser or any operator of any equipment sold, rented, or in any other capacity associated with Beorn LLC. or its members is responsible for any property damage, individual harm, burns, electrocution, or other physical injury that results from the use of said equipment in any way shape or form. Before any digging is performed on a site a survey must be done by all relevant utility companies to ensure that all utilities are clearly marked and proper steps are taken to prevent the damage of said utilities or underground structures.</p>
+        <div class="prose max-w-none text-justify text-xs mt-8">
+            <p>
+                <b>Safety Warning:</b> Improper use of the equipment can lead to
+                severe injury and death. Equipment is to be operated exclusively
+                by a trained individual over the age of 18. Personal protective equipment
+                such as hard hats, high visibility safety vests, eye protection,
+                hearing protection, and steel toe boots are required. The purchaser
+                or any operator of any equipment sold, rented, or in any other capacity
+                associated with Beorn LLC. or its members is responsible for any
+                property damage, individual harm, burns, electrocution, or other
+                physical injury that results from the use of said equipment in any
+                way shape or form. Before any digging is performed on a site a survey
+                must be done by all relevant utility companies to ensure that all
+                utilities are clearly marked and proper steps are taken to prevent
+                the damage of said utilities or underground structures.
+            </p>
         </div>
     </div>
-
 </section>
