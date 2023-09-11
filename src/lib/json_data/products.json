@@ -225,11 +225,10 @@
         "description": "",
         "price": "$500",
         "stats": {
-            "Hex Drive Size": "13/16 in / 21 mm",
-            "L": "8.5 in / 22 cm",
-            "W": "6 in / 15 cm",
-            "H": "7 in / 18 cm",
-            "Weight": "17 lb / 8 kg",
+            "L": "27 in / 68 cm",
+            "W": "9 in / 22 cm",
+            "H": "7 in / 17 cm",
+            "Weight": "50 lb / 22 kg",
             "Part Number": "HTSE17"
         },
                 "compatibleProducts": [
@@ -243,11 +242,10 @@
         "description": "",
         "price": "$450",
         "stats": {
-            "Hex Drive Size": "13/16 in / 21 mm",
-            "L": "8.5 in / 22 cm",
-            "W": "6 in / 15 cm",
-            "H": "7 in / 18 cm",
-            "Weight": "17 lb / 8 kg",
+            "L": "27 in / 68 cm",
+            "W": "10 in / 25 cm",
+            "H": "8 in / 20 cm",
+            "Weight": "17 lb / 7 kg",
             "Part Number": "HTSE10"
         },
                 "compatibleProducts": [
@@ -260,11 +258,10 @@
         "description": "",
         "price": "$260",
         "stats": {
-            "Hex Drive Size": "13/16 in / 21 mm",
-            "L": "8.5 in / 22 cm",
-            "W": "6 in / 15 cm",
-            "H": "7 in / 18 cm",
-            "Weight": "17 lb / 8 kg",
+            "L": "27 in / 68 cm",
+            "W": "7 in / 17 cm",
+            "H": "6 in / 15 cm",
+            "Weight": "23 lb / 10 kg",
             "Part Number": "MTSE10"
         },
                 "compatibleProducts": [
@@ -278,10 +275,10 @@
         "price": "$260",
         "stats": {
             "Hex Drive Size": "13/16 in / 21 mm",
-            "L": "8.5 in / 22 cm",
-            "W": "6 in / 15 cm",
-            "H": "7 in / 18 cm",
-            "Weight": "17 lb / 8 kg",
+            "L": "20 in / 50 cm",
+            "W": "11 in / 27 cm",
+            "H": "8 in / 20 cm",
+            "Weight": "30 lb / 13 kg",
             "Part Number": "MTSE08"
         },
                 "compatibleProducts": [
@@ -318,7 +315,7 @@
         ]
     },
     {
-        "title": "6 in Toothed Trenching Bucket (TB06)",
+        "title": "6 in Toothed Trenching Bucket",
         "slug": "tb06",
         "description": "",
         "price": "$180",
@@ -341,7 +338,7 @@
         ]
     },
     {
-        "title": "14 in Ripper Claw (R14)",
+        "title": "14 in Ripper Claw",
         "slug": "r14",
         "description": "",
         "price": "$220",
@@ -365,7 +362,7 @@
         ]
     },
     {
-        "title": "30 in Articulating Smooth Bucket (ASB30)",
+        "title": "30 in Articulating Smooth Bucket",
         "slug": "asb30",
         "description": "",
         "price": "$700",
@@ -389,7 +386,7 @@
         ]
     },
     {
-        "title": "24 in Smooth Bucket (SB24)",
+        "title": "24 in Smooth Bucket",
         "slug": "sb24",
         "description": "",
         "price": "$350",
@@ -412,7 +409,7 @@
         ]
     },
     {
-        "title": "8 in Toothed Trenching Bucket (TB08)",
+        "title": "8 in Toothed Trenching Bucket",
         "slug": "tb08",
         "description": "",
         "price": "$200",
@@ -435,7 +432,7 @@
         ]
     },
     {
-        "title": "SP25MM01",
+        "title": "Bucket Pin SP25MM01",
         "slug": "sp25mm01",
         "description": "",
         "price": "$20",
@@ -456,7 +453,7 @@
         ]
     },
     {
-        "title": "TP25MM01",
+        "title": "Bucket Pin TP25MM01",
         "slug": "tp25mm01",
         "description": "",
         "price": "$20",
@@ -476,7 +473,7 @@
         ]
     },
     {
-        "title": "8 in x 40 in Auger Bit (AB07D36H30)",
+        "title": "8 in x 40 in Auger Bit",
         "slug": "ab07d36h30",
         "description": "8 in diameter by 40 in long auger bit. Replaceable edge teeth. (retaining pin included)",
         "price": "$260",
@@ -501,7 +498,7 @@
         ]
     },
     {
-        "title": "12 in x 40 in Auger Bit (AB12D36H30)",
+        "title": "12 in x 40 in Auger Bit",
         "slug": "ab12d36h30",
         "description": "12 in diameter by 40 in long auger bit. Replaceable edge teeth. (retaining pin included)",
         "price": "$240",
@@ -526,7 +523,7 @@
         ]
     },
     {
-        "title": "Auger Motor 30mm Hex Drive (AM01H30)",
+        "title": "Auger Motor 30mm Hex Drive",
         "slug": "am01h30",
         "description": "Hydraulic Auger 30mm hex drive.",
         "price": "$800",
