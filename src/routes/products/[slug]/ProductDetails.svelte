@@ -111,7 +111,7 @@
     </div>
     <div class="mt-4 mb-6">
         <div class="prose max-w-none text-justify">
-            <p>"Test"</p>
+            <p>"    Safety Warning: Improper use of the equipment can lead to severe injury and death. Equipment is to be operated exclusively by a trained individual over the age of 18. Personal protective equipment such as hard hats, high visibility safety vests, eye protection, hearing protection, and steel toe boots are required. The purchaser or any operator of any equipment sold, rented, or in any other capacity associated with Beorn LLC. or its members is responsible for any property damage, individual harm, burns, electrocution, or other physical injury that results from the use of said equipment in any way shape or form. Before any digging is performed on a site a survey must be done by all relevant utility companies to ensure that all utilities are clearly marked and proper steps are taken to prevent the damage of said utilities or underground structures."</p>
         </div>
     </div>
 </section>
