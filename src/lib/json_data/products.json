@@ -27,7 +27,7 @@
         "title": "SE08 Mini Excavator 1,700 lb",
         "slug": "se08",
         "description": "The SE08 mini excavator is the perfect tool to transform your business or property. This machine can trench up to 4 ft deep with ease, tear out landscaping or underbrush, and move bulk material with ease. Never pick up a shovel again and tackle projects that seemed undoable by hand.  Rotate 360° to place material exactly where you  need it  when the project is done, trenches can be effortlessly filled with the backfill blade. Disclaimer: All excavators come with a single toothed bucket,  thumb, quick connect adapter, or other attachments are shown only for display purposes. All custom ordered and back order equipment has a minimum lead time of 60 days. ",
-        "price": "$8,230",
+        "price": "$8,000",
         "video": "https://www.youtube.com/embed/zrkK7-ysMuY",
         "stats": {
             "Weight": "1,700 lb / 800 kg",
@@ -66,7 +66,7 @@
         "title": "SE10 Mini Excavator 2,200 lb",
         "slug": "se10",
         "description": "The SE10 mini excavator is the perfect tool to transform your business or property. This machine can trench up to 5 ft deep with ease, tear out landscaping or underbrush, and move bulk material with ease. Never pick up a shovel again and tackle projects that seemed undoable by hand.  Rotate 360° to place material exactly where you  need it  when the project is done, trenches can be effortlessly filled with the backfill blade. Disclaimer: All excavators come with a single toothed bucket,  thumb, quick connect adapter, or other attachments are shown only for display purposes. All custom ordered and back order equipment has a minimum lead time of 60 days. ",
-        "price": "$9,020",
+        "price": "$9,000",
         "video": "https://www.youtube.com/embed/CsYZGTKnmhY",
         "stats": {
             "Weight": "2,200 lb / 1,000 kg",
@@ -292,7 +292,7 @@
         "title": "Quick Connect Coupler",
         "slug": "sqc01",
         "description": "",
-        "price": "$260",
+        "price": "$300",
         "stats": {
             "Hex Drive Size": "13/16 in / 21 mm",
             "L": "8.5 in / 22 cm",
@@ -344,7 +344,7 @@
         "title": "14 in Ripper Claw (R14)",
         "slug": "r14",
         "description": "",
-        "price": "$200",
+        "price": "$220",
         "stats": {
             "Tooth Width": "2 in / 5 cm",
             "L": "18 in / 47 cm",
@@ -368,7 +368,7 @@
         "title": "30 in Articulating Smooth Bucket (ASB30)",
         "slug": "asb30",
         "description": "",
-        "price": "$610",
+        "price": "$700",
         "stats": {
             "Hydraulic Hose Length": "84 in / 213 cm",
             "L": "20 in / 51 cm",
@@ -392,7 +392,7 @@
         "title": "24 in Smooth Bucket (SB24)",
         "slug": "sb24",
         "description": "",
-        "price": "$300",
+        "price": "$350",
         "stats": {
             "L": "13 in / 33 cm",
             "W": "24 in / 60 cm",
@@ -415,7 +415,7 @@
         "title": "8 in Toothed Trenching Bucket (TB08)",
         "slug": "tb08",
         "description": "",
-        "price": "$210",
+        "price": "$200",
         "stats": {
             "L": "20 in / 50 cm",
             "W": "9.5 in / 24 cm",
@@ -438,7 +438,7 @@
         "title": "SP25MM01",
         "slug": "sp25mm01",
         "description": "",
-        "price": "$21",
+        "price": "$20",
         "stats": {
             "Diameter": ".98 in / 25 mm",
             "L": "6 in / 150 cm",
@@ -459,7 +459,7 @@
         "title": "TP25MM01",
         "slug": "tp25mm01",
         "description": "",
-        "price": "$21",
+        "price": "$20",
         "stats": {
             "Diameter": ".98 in / 25 mm",
             "Retainer Diameter": "3/8 in / 10 mm",
@@ -504,7 +504,7 @@
         "title": "12 in x 40 in Auger Bit (AB12D36H30)",
         "slug": "ab12d36h30",
         "description": "12 in diameter by 40 in long auger bit. Replaceable edge teeth. (retaining pin included)",
-        "price": "$260",
+        "price": "$240",
         "stats": {
             "Drive": "30mm hex",
             "Hex Pin Length": "2.25 in / 57 mm ",
@@ -529,7 +529,7 @@
         "title": "Auger Motor 30mm Hex Drive (AM01H30)",
         "slug": "am01h30",
         "description": "Hydraulic Auger 30mm hex drive.",
-        "price": "$770",
+        "price": "$800",
         "stats": {
             "Mount Pin Length": "4.75 in / 120 mm",
             "Mount Pin Dia": ".98 in / 25 mm ",
