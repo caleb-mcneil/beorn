@@ -24,33 +24,111 @@
         }
     },
     {
-        "title": "SE08 Mini Excavator 1,700 lb",
-        "slug": "se08",
-        "description": "The SE08 mini excavator is the perfect tool to transform your business or property. This machine can trench up to 4 ft deep with ease, tear out landscaping or underbrush, and move bulk material. Never pick up a shovel again and tackle projects that seemed undoable by hand.  Rotate 360° to place material exactly where you  need it  when the project is done, trenches can be effortlessly filled with the backfill blade. ",
-        "price": "$8,000",
-        "video": "https://www.youtube.com/embed/zrkK7-ysMuY",
+        "title": "SE17P Mini Excavator 3,700 lb",
+        "slug": "se17p",
+        "description": "The SE17P mini excavator is the perfect tool to transform your business or property. The pilot valve controls provide a more ergonomic, comfortable, smoother, and quicker operation of the machine compared to the standard valves. This machine can trench up to 6.5 ft deep with ease, tear out landscaping or underbrush, and move bulk material. Never pick up a shovel again and tackle projects that seemed undoable by hand.  Rotate 360° to place material exactly where you  need it  when the project is done, trenches can be effortlessly filled with the backfill blade. ",
+        "price": "$13,500",
+        "video": "https://www.youtube.com/embed/3Akmo41OM0o?si=kglV_w5U-7nApAIX",
         "stats": {
-            "Weight": "1,700 lb / 800 kg",
-            "Overall Length": "98 in / 248 cm",
-            "Overall Width": "32 in / 81 cm",
-            "Overall Height": "51 in / 129 cm,",
-            "Track Length": "43 in / 109 cm",
-            "Ground Speed": "1.5 mph / 2.3 kph",
+            "Weight": "3,700 lb / 1,700 kg",
+            "Overall Length": "118 in / 299 cm",
+            "Overall Width": "44 in / 111 cm",
+            "Overall Height": "87 in / 220 cm,",
+            "Track Length": "54 in / 137 cm",
+            "Ground Speed": "2.2 mph / 3.5 kph",
             "Engine Brand": "Briggs and Stratton",
             "Engine Power": "13.5 hp / 10 kW",
             "Fuel": "Gasoline",
             "Fuel Capacity": "1.7 gal / 6.4 L",
-            "Auxiliary Hydraulic Flow": "5.3 gpm / 20 L/min",
-            "Break Out Force": "2,250 lbf / 10 kn",
-            "Digging Radius": "95 in / 241 cm",
-            "Digging Depth": "48 in / 121 cm",
-            "Backfill Blade Width": "32 in / 81 cm",
-            "Standard Bucket Width": "12 in / 30 cm (Toothed)",
-            "Standard Bucket Capacity": "0.7 ft^3 / .02 m^3",
+            "Auxiliary Hydraulic Flow": "7.1 gpm / 27 L/min",
+            "Break Out Force": "3,259 lbf / 14.5 kn",
+            "Digging Radius": "138 in / 350 cm",
+            "Digging Depth": "75 in / 190 cm",
+            "Backfill Blade Width": "44 in / 111 cm",
+            "Standard Bucket Width": "16 in / 40 cm (Toothed)",
+            "Standard Bucket Capacity": "1.2 ft^3 / .035 m^3",
             "ROPs (Rollover Protection Structures)": "Yes"
         },
                 "compatibleProducts": [
-            "mtse08",
+            "htse17",
+            "sqc01",
+            "tb06",
+            "r14",
+            "asb30",
+            "sb24",
+            "tb08",
+            "am01h30",
+            "ab12d36h30",
+            "ab07d36h30"
+        ]
+    },
+    {
+        "title": "SE17 Mini Excavator 3,700 lb",
+        "slug": "se17",
+        "description": "The SE17 mini excavator is the perfect tool to transform your business or property. This machine can trench up to 6.5 ft deep with ease, tear out landscaping or underbrush, and move bulk material. Never pick up a shovel again and tackle projects that seemed undoable by hand.  Rotate 360° to place material exactly where you  need it  when the project is done, trenches can be effortlessly filled with the backfill blade. ",
+        "price": "$12,500",
+        "video": "https://www.youtube.com/embed/ZqbSqlKf0xc",
+        "stats": {
+            "Weight": "3,700 lb / 1,700 kg",
+            "Overall Length": "118 in / 299 cm",
+            "Overall Width": "44 in / 111 cm",
+            "Overall Height": "87 in / 220 cm,",
+            "Track Length": "54 in / 137 cm",
+            "Ground Speed": "2.2 mph / 3.5 kph",
+            "Engine Brand": "Briggs and Stratton",
+            "Engine Power": "13.5 hp / 10 kW",
+            "Fuel": "Gasoline",
+            "Fuel Capacity": "1.7 gal / 6.4 L",
+            "Auxiliary Hydraulic Flow": "7.1 gpm / 27 L/min",
+            "Break Out Force": "3,259 lbf / 14.5 kn",
+            "Digging Radius": "138 in / 350 cm",
+            "Digging Depth": "75 in / 190 cm",
+            "Backfill Blade Width": "44 in / 111 cm",
+            "Standard Bucket Width": "16 in / 40 cm (Toothed)",
+            "Standard Bucket Capacity": "1.2 ft^3 / .035 m^3",
+            "ROPs (Rollover Protection Structures)": "Yes"
+        },
+                "compatibleProducts": [
+            "htse17",
+            "sqc01",
+            "tb06",
+            "r14",
+            "asb30",
+            "sb24",
+            "tb08",
+            "am01h30",
+            "ab12d36h30",
+            "ab07d36h30"
+        ]
+    },
+    {
+        "title": "SE10P Mini Excavator 2,200 lb",
+        "slug": "se10p",
+        "description": "The SE10P mini excavator is the perfect tool to transform your business or property. The pilot valve controls provide a more ergonomic, comfortable, smoother, and quicker operation of the machine compared to the standard valves. This machine can trench up to 5 ft deep with ease, tear out landscaping or underbrush, and move bulk material. Never pick up a shovel again and tackle projects that seemed undoable by hand.  Rotate 360° to place material exactly where you  need it  when the project is done, trenches can be effortlessly filled with the backfill blade.",
+        "price": "$10,000",
+        "video": "https://www.youtube.com/embed/jHUwegq497c",
+        "stats": {
+            "Weight": "2,200 lb / 1,000 kg",
+            "Overall Length": "110 in / 279 cm",
+            "Overall Width": "37 in / 93 cm",
+            "Overall Height": "87 in / 220 cm,",
+            "Track Length": "47 in / 119 cm",
+            "Ground Speed": "2.2 mph / 3.5 kph",
+            "Engine Brand": "Briggs and Stratton",
+            "Engine Power": "13.5 hp / 10 kW",
+            "Fuel": "Gasoline",
+            "Fuel Capacity": "1.7 gal / 6.4 L",
+            "Auxiliary Hydraulic Flow": "5.5 gpm / 21 L/min",
+            "Break Out Force": "2,315 lbf / 10.3 kn",
+            "Digging Radius": "108 in / 274 cm",
+            "Digging Depth": "65 in / 165 cm",
+            "Backfill Blade Width": "36 in / 91 cm",
+            "Standard Bucket Width": "16 in / 40 cm (Toothed)",
+            "Standard Bucket Capacity": "0.9 ft^3 / .025 m^3",
+            "ROPs (Rollover Protection Structures)": "Yes"
+        },
+                "compatibleProducts": [
+            "htse10",
             "sqc01",
             "tb06",
             "r14",
@@ -103,111 +181,33 @@
         ]
     },
     {
-        "title": "SE10P Mini Excavator 2,200 lb",
-        "slug": "se10p",
-        "description": "The SE10P mini excavator is the perfect tool to transform your business or property. The pilot valve controls provide a more ergonomic, comfortable, smoother, and quicker operation of the machine compared to the standard valves. This machine can trench up to 5 ft deep with ease, tear out landscaping or underbrush, and move bulk material. Never pick up a shovel again and tackle projects that seemed undoable by hand.  Rotate 360° to place material exactly where you  need it  when the project is done, trenches can be effortlessly filled with the backfill blade.",
-        "price": "$10,000",
-        "video": "https://www.youtube.com/embed/jHUwegq497c",
+        "title": "SE08 Mini Excavator 1,700 lb",
+        "slug": "se08",
+        "description": "The SE08 mini excavator is the perfect tool to transform your business or property. This machine can trench up to 4 ft deep with ease, tear out landscaping or underbrush, and move bulk material. Never pick up a shovel again and tackle projects that seemed undoable by hand.  Rotate 360° to place material exactly where you  need it  when the project is done, trenches can be effortlessly filled with the backfill blade. ",
+        "price": "$8,000",
+        "video": "https://www.youtube.com/embed/zrkK7-ysMuY",
         "stats": {
-            "Weight": "2,200 lb / 1,000 kg",
-            "Overall Length": "110 in / 279 cm",
-            "Overall Width": "37 in / 93 cm",
-            "Overall Height": "87 in / 220 cm,",
-            "Track Length": "47 in / 119 cm",
-            "Ground Speed": "2.2 mph / 3.5 kph",
+            "Weight": "1,700 lb / 800 kg",
+            "Overall Length": "98 in / 248 cm",
+            "Overall Width": "32 in / 81 cm",
+            "Overall Height": "51 in / 129 cm,",
+            "Track Length": "43 in / 109 cm",
+            "Ground Speed": "1.5 mph / 2.3 kph",
             "Engine Brand": "Briggs and Stratton",
             "Engine Power": "13.5 hp / 10 kW",
             "Fuel": "Gasoline",
             "Fuel Capacity": "1.7 gal / 6.4 L",
-            "Auxiliary Hydraulic Flow": "5.5 gpm / 21 L/min",
-            "Break Out Force": "2,315 lbf / 10.3 kn",
-            "Digging Radius": "108 in / 274 cm",
-            "Digging Depth": "65 in / 165 cm",
-            "Backfill Blade Width": "36 in / 91 cm",
-            "Standard Bucket Width": "16 in / 40 cm (Toothed)",
-            "Standard Bucket Capacity": "0.9 ft^3 / .025 m^3",
+            "Auxiliary Hydraulic Flow": "5.3 gpm / 20 L/min",
+            "Break Out Force": "2,250 lbf / 10 kn",
+            "Digging Radius": "95 in / 241 cm",
+            "Digging Depth": "48 in / 121 cm",
+            "Backfill Blade Width": "32 in / 81 cm",
+            "Standard Bucket Width": "12 in / 30 cm (Toothed)",
+            "Standard Bucket Capacity": "0.7 ft^3 / .02 m^3",
             "ROPs (Rollover Protection Structures)": "Yes"
         },
                 "compatibleProducts": [
-            "htse10",
-            "sqc01",
-            "tb06",
-            "r14",
-            "asb30",
-            "sb24",
-            "tb08",
-            "am01h30",
-            "ab12d36h30",
-            "ab07d36h30"
-        ]
-    },
-    {
-        "title": "SE17 Mini Excavator 3,700 lb",
-        "slug": "se17",
-        "description": "The SE17 mini excavator is the perfect tool to transform your business or property. This machine can trench up to 6.5 ft deep with ease, tear out landscaping or underbrush, and move bulk material. Never pick up a shovel again and tackle projects that seemed undoable by hand.  Rotate 360° to place material exactly where you  need it  when the project is done, trenches can be effortlessly filled with the backfill blade. ",
-        "price": "$12,500",
-        "video": "https://www.youtube.com/embed/ZqbSqlKf0xc",
-        "stats": {
-            "Weight": "3,700 lb / 1,700 kg",
-            "Overall Length": "118 in / 299 cm",
-            "Overall Width": "44 in / 111 cm",
-            "Overall Height": "87 in / 220 cm,",
-            "Track Length": "54 in / 137 cm",
-            "Ground Speed": "2.2 mph / 3.5 kph",
-            "Engine Brand": "Briggs and Stratton",
-            "Engine Power": "13.5 hp / 10 kW",
-            "Fuel": "Gasoline",
-            "Fuel Capacity": "1.7 gal / 6.4 L",
-            "Auxiliary Hydraulic Flow": "7.1 gpm / 27 L/min",
-            "Break Out Force": "3,259 lbf / 14.5 kn",
-            "Digging Radius": "138 in / 350 cm",
-            "Digging Depth": "75 in / 190 cm",
-            "Backfill Blade Width": "44 in / 111 cm",
-            "Standard Bucket Width": "16 in / 40 cm (Toothed)",
-            "Standard Bucket Capacity": "1.2 ft^3 / .035 m^3",
-            "ROPs (Rollover Protection Structures)": "Yes"
-        },
-                "compatibleProducts": [
-            "htse17",
-            "sqc01",
-            "tb06",
-            "r14",
-            "asb30",
-            "sb24",
-            "tb08",
-            "am01h30",
-            "ab12d36h30",
-            "ab07d36h30"
-        ]
-    },
-    {
-        "title": "SE17P Mini Excavator 3,700 lb",
-        "slug": "se17p",
-        "description": "The SE17P mini excavator is the perfect tool to transform your business or property. The pilot valve controls provide a more ergonomic, comfortable, smoother, and quicker operation of the machine compared to the standard valves. This machine can trench up to 6.5 ft deep with ease, tear out landscaping or underbrush, and move bulk material. Never pick up a shovel again and tackle projects that seemed undoable by hand.  Rotate 360° to place material exactly where you  need it  when the project is done, trenches can be effortlessly filled with the backfill blade. ",
-        "price": "$13,500",
-        "video": "https://www.youtube.com/embed/3Akmo41OM0o?si=kglV_w5U-7nApAIX",
-        "stats": {
-            "Weight": "3,700 lb / 1,700 kg",
-            "Overall Length": "118 in / 299 cm",
-            "Overall Width": "44 in / 111 cm",
-            "Overall Height": "87 in / 220 cm,",
-            "Track Length": "54 in / 137 cm",
-            "Ground Speed": "2.2 mph / 3.5 kph",
-            "Engine Brand": "Briggs and Stratton",
-            "Engine Power": "13.5 hp / 10 kW",
-            "Fuel": "Gasoline",
-            "Fuel Capacity": "1.7 gal / 6.4 L",
-            "Auxiliary Hydraulic Flow": "7.1 gpm / 27 L/min",
-            "Break Out Force": "3,259 lbf / 14.5 kn",
-            "Digging Radius": "138 in / 350 cm",
-            "Digging Depth": "75 in / 190 cm",
-            "Backfill Blade Width": "44 in / 111 cm",
-            "Standard Bucket Width": "16 in / 40 cm (Toothed)",
-            "Standard Bucket Capacity": "1.2 ft^3 / .035 m^3",
-            "ROPs (Rollover Protection Structures)": "Yes"
-        },
-                "compatibleProducts": [
-            "htse17",
+            "mtse08",
             "sqc01",
             "tb06",
             "r14",
@@ -327,7 +327,6 @@
             "Part Number": "TB06"
         },
                         "compatibleProducts": [
-            "dc08",
             "se08",
             "se10",
             "se10p",
@@ -351,7 +350,6 @@
             "Part Number": "R14"
         },
                         "compatibleProducts": [
-            "dc08",
             "se08",
             "se10",
             "se10p",
@@ -375,7 +373,6 @@
             "Part Number": "ASB30"
         },
                         "compatibleProducts": [
-            "dc08",
             "se08",
             "se10",
             "se10p",
@@ -398,7 +395,6 @@
             "Part Number": "SB24"
         },
                         "compatibleProducts": [
-            "dc08",
             "se08",
             "se10",
             "se10p",
@@ -421,7 +417,6 @@
             "Part Number": "TB08"
         },
                         "compatibleProducts": [
-            "dc08",
             "se08",
             "se10",
             "se10p",
@@ -429,47 +424,6 @@
             "se17p",
             "sqc01",
             "sp25mm01"
-        ]
-    },
-    {
-        "title": "Bucket Pin SP25MM01",
-        "slug": "sp25mm01",
-        "description": "",
-        "price": "$20",
-        "stats": {
-            "Diameter": ".98 in / 25 mm",
-            "L": "6 in / 150 cm",
-            "W": "1.25 in / 3 cm",
-            "H": "1.25 in / 3 cm",
-            "Weight": "1.4 lb / .6 kg",
-            "Part Number": "SP25MM01"
-        },
-                "compatibleProducts": [
-            "sqc01",
-            "tb06",
-            "r14",
-            "asb30",
-            "sb24"
-        ]
-    },
-    {
-        "title": "Bucket Pin TP25MM01",
-        "slug": "tp25mm01",
-        "description": "",
-        "price": "$20",
-        "stats": {
-            "Diameter": ".98 in / 25 mm",
-            "Retainer Diameter": "3/8 in / 10 mm",
-            "L": "5.5 in / 14 cm",
-            "W": "3 in / 8 cm",
-            "H": "2 in / 5 cm",
-            "Weight": "1.2 lb / .5 kg",
-            "Part Number": "TP25MM01"
-        },    
-                "compatibleProducts": [
-            "sqc01",
-            "tb08",
-            "am01h30"
         ]
     },
     {
@@ -537,7 +491,7 @@
             "W": "8 in / 22 cm",
             "H": "6 in / 15 cm",
             "Hydraulic Hose Length": "72 in / 183 cm",
-            "Hydraulic Flow Rate": "4-10 gpm / 15-37 lpm",
+            "Hydraulic Flow Rate": "4-12 gpm / 15-37 lpm",
             "Hydraulic Fitting": "14 mm x 1.5 mm O-Ring",
             "Part Number": "AM01H30"
         },
@@ -551,6 +505,47 @@
             "ab12d36h30",
             "ab07d36h30",
             "tp25mm01"
+        ]
+    },
+    {
+        "title": "Bucket Pin SP25MM01",
+        "slug": "sp25mm01",
+        "description": "",
+        "price": "$20",
+        "stats": {
+            "Diameter": ".98 in / 25 mm",
+            "L": "6 in / 150 cm",
+            "W": "1.25 in / 3 cm",
+            "H": "1.25 in / 3 cm",
+            "Weight": "1.4 lb / .6 kg",
+            "Part Number": "SP25MM01"
+        },
+                "compatibleProducts": [
+            "sqc01",
+            "tb06",
+            "r14",
+            "asb30",
+            "sb24"
+        ]
+    },
+    {
+        "title": "Bucket Pin TP25MM01",
+        "slug": "tp25mm01",
+        "description": "",
+        "price": "$20",
+        "stats": {
+            "Diameter": ".98 in / 25 mm",
+            "Retainer Diameter": "3/8 in / 10 mm",
+            "L": "5.5 in / 14 cm",
+            "W": "3 in / 8 cm",
+            "H": "2 in / 5 cm",
+            "Weight": "1.2 lb / .5 kg",
+            "Part Number": "TP25MM01"
+        },    
+                "compatibleProducts": [
+            "sqc01",
+            "tb08",
+            "am01h30"
         ]
     }
 ]
