@@ -319,8 +319,7 @@
             "H": "1.25 in / 3 cm",
             "Weight": "1.4 lb / .6 kg",
             "Part Number": "SP25MM01"
-        }
-    },
+        },
                 "compatibleProducts": [
             "se08",
             "se10",
@@ -343,6 +342,7 @@
             "tp25mm01",
             "sp25mm01"
         ]
+    },
     {
         "title": "TP25MM01",
         "slug": "tp25mm01",
