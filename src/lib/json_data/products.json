@@ -320,7 +320,6 @@
             "Weight": "1.4 lb / .6 kg",
             "Part Number": "SP25MM01"
         }
-    },
     
                 "compatibleProducts": [
             "se08",
@@ -344,7 +343,6 @@
             "tp25mm01",
             "sp25mm01"
         ]
-    },
     {
         "title": "TP25MM01",
         "slug": "tp25mm01",
@@ -366,7 +364,6 @@
             "tb08",
             "am01h30"
         ]
-    },
     {
         "title": "8 in x 40 in Auger Bit (AB07D36H30)",
         "slug": "ab07d36h30",
@@ -393,7 +390,6 @@
             "am01h30",
             "ab12d36h30"
         ]
-    },
     {
         "title": "12 in x 40 in Auger Bit (AB12D36H30)",
         "slug": "ab12d36h30",
@@ -419,7 +415,6 @@
             "ab07d36h30",
             "am01h30"
         ]
-    },
     {
         "title": "Auger Motor 30mm Hex Drive (AM01H30)",
         "slug": "am01h30",
@@ -451,29 +446,6 @@
             "ab07d36h30",
             "tp25mm01"
         ]
-    }
 ]
 
-                "compatibleProducts": [
-            "se08",
-            "se10",
-            "se10p",
-            "se17",
-            "se17p",
-            "htse17",
-            "htse10",
-            "mtse10",
-            "mtse08",
-            "sqc01",
-            "tb06",
-            "r14",
-            "asb30",
-            "sb24",
-            "tb08",
-            "am01h30",
-            "ab12d36h30",
-            "ab07d36h30",
-            "tp25mm01",
-            "sp25mm01",
-        ]
-    },
+
