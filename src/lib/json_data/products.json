@@ -49,7 +49,20 @@
             "Standard Bucket Width": "12 in / 30 cm (Toothed)",
             "Standard Bucket Capacity": "0.7 ft^3 / .02 m^3",
             "ROPs (Rollover Protection Structures)": "Yes"
-        }
+        },
+                "compatibleProducts": [
+            "mtse08",
+            "sqc01",
+            "tb06",
+            "r14",
+            "asb30",
+            "sb24",
+            "tb08",
+            "am01h30",
+            "ab12d36h30",
+            "ab07d36h30",
+        ]
+    },
     },
     {
         "title": "SE10 Mini Excavator 2,200 lb",
@@ -76,7 +89,21 @@
             "Standard Bucket Width": "16 in / 40 cm (Toothed)",
             "Standard Bucket Capacity": "0.9 ft^3 / .025 m^3",
             "ROPs (Rollover Protection Structures)": "Yes"
-        }
+        },
+                "compatibleProducts": [
+
+            "mtse10",
+            "sqc01",
+            "tb06",
+            "r14",
+            "asb30",
+            "sb24",
+            "tb08",
+            "am01h30",
+            "ab12d36h30",
+            "ab07d36h30",
+        ]
+    },
     },
     {
         "title": "SE10P Mini Excavator 2,200 lb",
@@ -103,7 +130,20 @@
             "Standard Bucket Width": "16 in / 40 cm (Toothed)",
             "Standard Bucket Capacity": "0.9 ft^3 / .025 m^3",
             "ROPs (Rollover Protection Structures)": "Yes"
-        }
+        },
+                "compatibleProducts": [
+            "htse10",
+            "sqc01",
+            "tb06",
+            "r14",
+            "asb30",
+            "sb24",
+            "tb08",
+            "am01h30",
+            "ab12d36h30",
+            "ab07d36h30",
+        ]
+    },
     },
     {
         "title": "SE17 Mini Excavator 3,700 lb",
@@ -130,7 +170,20 @@
             "Standard Bucket Width": "16 in / 40 cm (Toothed)",
             "Standard Bucket Capacity": "1.2 ft^3 / .035 m^3",
             "ROPs (Rollover Protection Structures)": "Yes"
-        }
+        },
+                "compatibleProducts": [
+            "htse17",
+            "sqc01",
+            "tb06",
+            "r14",
+            "asb30",
+            "sb24",
+            "tb08",
+            "am01h30",
+            "ab12d36h30",
+            "ab07d36h30",
+        ]
+    },
     },
     {
         "title": "SE17P Mini Excavator 3,700 lb",
@@ -157,7 +210,20 @@
             "Standard Bucket Width": "16 in / 40 cm (Toothed)",
             "Standard Bucket Capacity": "1.2 ft^3 / .035 m^3",
             "ROPs (Rollover Protection Structures)": "Yes"
-        }
+        },
+                "compatibleProducts": [
+            "htse17",
+            "sqc01",
+            "tb06",
+            "r14",
+            "asb30",
+            "sb24",
+            "tb08",
+            "am01h30",
+            "ab12d36h30",
+            "ab07d36h30",
+        ]
+    },
     },
     {
         "title": "Hydraulic Thumb SE17",
@@ -171,7 +237,12 @@
             "H": "7 in / 18 cm",
             "Weight": "17 lb / 8 kg",
             "Part Number": "HTSE17"
-        }
+        },
+                "compatibleProducts": [
+            "se17",
+            "se17p",
+        ]
+    },
     },
     {
         "title": "Hydraulic Thumb SE10",
@@ -185,7 +256,11 @@
             "H": "7 in / 18 cm",
             "Weight": "17 lb / 8 kg",
             "Part Number": "HTSE10"
-        }
+        },
+                "compatibleProducts": [
+            "se10p",
+        ]
+    },
     },
     {
         "title": "Mechanical Thumb SE10",
@@ -199,7 +274,11 @@
             "H": "7 in / 18 cm",
             "Weight": "17 lb / 8 kg",
             "Part Number": "MTSE10"
-        }
+        },
+                "compatibleProducts": [
+            "se10",
+        ]
+    },
     },
     {
         "title": "Mechanical Thumb SE08",
@@ -213,7 +292,11 @@
             "H": "7 in / 18 cm",
             "Weight": "17 lb / 8 kg",
             "Part Number": "MTSE08"
-        }
+        },
+                "compatibleProducts": [
+            "se08",
+        ]
+    },
     },
     {
         "title": "Quick Connect Coupler",
@@ -228,16 +311,20 @@
             "Weight": "17 lb / 8 kg",
             "Part Number": "SQC01"
         },
-        "compatibleProducts": [
+                "compatibleProducts": [
             "se08",
             "se10",
+            "se10p",
             "se17",
+            "se17p",
             "tb06",
             "r14",
             "asb30",
             "sb24",
             "tb08",
-            "am01h30"
+            "am01h30",
+            "tp25mm01",
+            "sp25mm01",
         ]
     },
     {
@@ -251,7 +338,18 @@
             "H": "13.5 in / 34 cm",
             "Weight": "37 lb / 18.5 kg",
             "Part Number": "TB06"
-        }
+        },
+                        "compatibleProducts": [
+            "dc08",
+            "se08",
+            "se10",
+            "se10p",
+            "se17",
+            "se17p",
+            "sqc01",
+            "sp25mm01",
+        ]
+    },
     },
     {
         "title": "14 in Ripper Claw (R14)",
@@ -265,7 +363,18 @@
             "H": "8 in / 20 cm",
             "Weight": "23 lb / 10 kg",
             "Part Number": "R14"
-        }
+        },
+                        "compatibleProducts": [
+            "dc08",
+            "se08",
+            "se10",
+            "se10p",
+            "se17",
+            "se17p",
+            "sqc01",
+            "sp25mm01",
+        ]
+    },
     },
     {
         "title": "30 in Articulating Smooth Bucket (ASB30)",
@@ -279,7 +388,18 @@
             "H": "22 in / 59 cm",
             "Weight": "85 lb / 29 kg",
             "Part Number": "ASB30"
-        }
+        },
+                        "compatibleProducts": [
+            "dc08",
+            "se08",
+            "se10",
+            "se10p",
+            "se17",
+            "se17p",
+            "sqc01",
+            "sp25mm01",
+        ]
+    },
     },
     {
         "title": "24 in Smooth Bucket (SB24)",
@@ -292,7 +412,18 @@
             "H": "15 in / 38 cm",
             "Weight": "56 lb / 25 kg",
             "Part Number": "SB24"
-        }
+        },
+                        "compatibleProducts": [
+            "dc08",
+            "se08",
+            "se10",
+            "se10p",
+            "se17",
+            "se17p",
+            "sqc01",
+            "sp25mm01",
+        ]
+    },
     },
     {
         "title": "8 in Toothed Trenching Bucket (TB08)",
@@ -305,7 +436,18 @@
             "H": "13.5 in / 34 cm",
             "Weight": "41 lb / 18.5 kg",
             "Part Number": "TB08"
-        }
+        },
+                        "compatibleProducts": [
+            "dc08",
+            "se08",
+            "se10",
+            "se10p",
+            "se17",
+            "se17p",
+            "sqc01",
+            "sp25mm01",
+        ]
+    },
     },
     {
         "title": "SP25MM01",
@@ -321,26 +463,11 @@
             "Part Number": "SP25MM01"
         },
                 "compatibleProducts": [
-            "se08",
-            "se10",
-            "se10p",
-            "se17",
-            "se17p",
-            "htse17",
-            "htse10",
-            "mtse10",
-            "mtse08",
             "sqc01",
             "tb06",
             "r14",
             "asb30",
             "sb24",
-            "tb08",
-            "am01h30",
-            "ab12d36h30",
-            "ab07d36h30",
-            "tp25mm01",
-            "sp25mm01"
         ]
     },
     {
