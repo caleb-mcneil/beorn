@@ -47,11 +47,12 @@
                 <div class="mt-4 mb-4">
                     <div class="prose max-w-none text-justify">
                         <p>
-                            <b>Disclaimer:</b> All excavators come with a single
-                            toothed bucket. The thumb, quick connect adapter, or
-                            other attachments that are shown are only for display
-                            purposes. All custom ordered and back order equipment
-                            has a lead time of 60 days or more.
+                            <b>Disclaimer:</b> Sales Tax is included in price. 
+                            All excavators come with a single toothed bucket. The 
+                            thumb, quick connect adapter, or other attachments 
+                            that are shown are only for display purposes. All 
+                            custom ordered and back order equipment has a lead 
+                            time of 60 days or more.
                         </p>
                     </div>
                 </div>
