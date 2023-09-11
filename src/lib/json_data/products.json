@@ -321,6 +321,30 @@
             "Part Number": "SP25MM01"
         }
     },
+    
+                "compatibleProducts": [
+            "se08",
+            "se10",
+            "se10p",
+            "se17",
+            "se17p",
+            "htse17",
+            "htse10",
+            "mtse10",
+            "mtse08",
+            "sqc01",
+            "tb06",
+            "r14",
+            "asb30",
+            "sb24",
+            "tb08",
+            "am01h30",
+            "ab12d36h30",
+            "ab07d36h30",
+            "tp25mm01",
+            "sp25mm01"
+        ]
+    },
     {
         "title": "TP25MM01",
         "slug": "tp25mm01",
@@ -335,6 +359,13 @@
             "Weight": "1.2 lb / .5 kg",
             "Part Number": "TP25MM01"
         }
+    },
+    
+                "compatibleProducts": [
+            "sqc01",
+            "tb08",
+            "am01h30"
+        ]
     },
     {
         "title": "8 in x 40 in Auger Bit (AB07D36H30)",
@@ -352,6 +383,17 @@
             "Part Number": "AB07D36H30"
         }
     },
+    
+                "compatibleProducts": [
+            "se08",
+            "se10",
+            "se10p",
+            "se17",
+            "se17p",
+            "am01h30",
+            "ab12d36h30"
+        ]
+    },
     {
         "title": "12 in x 40 in Auger Bit (AB12D36H30)",
         "slug": "ab12d36h30",
@@ -367,6 +409,16 @@
             "H": "12 in / 30 cm",
             "Part Number": "AB12D36H30"
         }
+    },
+                    "compatibleProducts": [
+            "se08",
+            "se10",
+            "se10p",
+            "se17",
+            "se17p",
+            "ab07d36h30",
+            "am01h30"
+        ]
     },
     {
         "title": "Auger Motor 30mm Hex Drive (AM01H30)",
@@ -387,9 +439,8 @@
             "Hydraulic Fitting": "14 mm x 1.5 mm O-Ring",
             "Part Number": "AM01H30"
         }
-    }
+    },
                     "compatibleProducts": [
-            "dc08",
             "se08",
             "se10",
             "se10p",
@@ -398,8 +449,31 @@
             "sqc01",
             "ab12d36h30",
             "ab07d36h30",
-            "tp25mm01",
+            "tp25mm01"
         ]
-    },
+    }
 ]
 
+                "compatibleProducts": [
+            "se08",
+            "se10",
+            "se10p",
+            "se17",
+            "se17p",
+            "htse17",
+            "htse10",
+            "mtse10",
+            "mtse08",
+            "sqc01",
+            "tb06",
+            "r14",
+            "asb30",
+            "sb24",
+            "tb08",
+            "am01h30",
+            "ab12d36h30",
+            "ab07d36h30",
+            "tp25mm01",
+            "sp25mm01",
+        ]
+    },
