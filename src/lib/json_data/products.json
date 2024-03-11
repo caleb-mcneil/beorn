@@ -1,8 +1,36 @@
 [
     {
-        "title": "3 Axix CNC",
+        "title": "3 Axix Milling",
         "slug": "3_Axis_CNC",
-        "description": "Experience precision and efficiency with our 3-axis CNC machining services. Using state-of-the-art technology, we craft intricate parts and components with unparalleled accuracy. Our skilled team ensures each project meets exact specifications, whether for prototyping or production runs. With 3-axis capabilities, we offer versatility in machining a wide range of materials, delivering high-quality results every time. From simple designs to complex geometries, trust us to bring your vision to life with precision and reliability. Partner with us for your CNC machining needs and unlock the potential of precise manufacturing solutions.",
+        "description": "With our 3-axis CNC machining services. Using state-of-the-art technology, we craft intricate parts and components with unparalleled accuracy. Our skilled team ensures each project meets exact specifications, whether for prototyping or production runs. With 3-axis capabilities, we offer versatility in machining a wide range of materials, delivering high-quality results every time. From simple designs to complex geometries, trust us to bring your vision to life with precision and reliability. Partner with us for your CNC machining needs and unlock the potential of precise manufacturing solutions.",
+        "price": " ",
+        "video": "https://www.youtube.com/embed/kUHqh6LybvQ",
+        "stats": {
+            "Bed Payload": "1,700 lb / 800 kg",
+            "Bed Capacity": "15 ft^3 / 0.43 m^3",
+            "Weight": "1,230 lb / 560 kg",
+            "Overall Length": "97 in / 245 cm",
+            "Overall Width": "38 in / 97 cm"
+        }
+    },
+        {
+        "title": "CNC Lathe",
+        "slug": "Lathe_CNC",
+        "description": "Experience precision in every turn with our CNC lathe services. At Beorn LLC, we specialize in delivering top-notch craftsmanship tailored to your needs. From prototyping to production, our state-of-the-art equipment ensures accuracy and consistency. Whether you require intricate components or high-volume runs, we guarantee superior quality and fast turnaround times. Trust us to bring your projects to life with precision and efficiency. Contact us today to discuss your CNC lathe requirements and discover the difference of working with Beorn LLC.",
+        "price": " ",
+        "video": "https://www.youtube.com/embed/kUHqh6LybvQ",
+        "stats": {
+            "Bed Payload": "1,700 lb / 800 kg",
+            "Bed Capacity": "15 ft^3 / 0.43 m^3",
+            "Weight": "1,230 lb / 560 kg",
+            "Overall Length": "97 in / 245 cm",
+            "Overall Width": "38 in / 97 cm"
+        }
+    },
+        {
+        "title": "4 Axix Milling",
+        "slug": "4_Axis_CNC",
+        "description": "Elevate your machining capabilities with Beorn LLC's 4-axis CNC milling services. Our advanced technology and expertise enable precise and intricate milling operations for your projects. From complex geometries to high-volume production, we deliver superior quality and efficiency. With Beorn LLC, experience versatility and reliability in every piece produced. Let us bring your designs to life with unmatched precision and craftsmanship. Contact us today to explore how our 4-axis CNC milling services can optimize your manufacturing processes and propel your projects forward.",
         "price": " ",
         "video": "https://www.youtube.com/embed/kUHqh6LybvQ",
         "stats": {
