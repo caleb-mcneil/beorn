@@ -4,6 +4,13 @@
         "slug": "3_Axis_CNC",
         "description": "Experience precision and efficiency with our 3-axis CNC machining services. Using state-of-the-art technology, we craft intricate parts and components with unparalleled accuracy. Our skilled team ensures each project meets exact specifications, whether for prototyping or production runs. With 3-axis capabilities, we offer versatility in machining a wide range of materials, delivering high-quality results every time. From simple designs to complex geometries, trust us to bring your vision to life with precision and reliability. Partner with us for your CNC machining needs and unlock the potential of precise manufacturing solutions.",
         "price": " ",
-        "video": "https://www.youtube.com/embed/kUHqh6LybvQ"
+        "video": "https://www.youtube.com/embed/kUHqh6LybvQ",
+        "stats": {
+            "Bed Payload": "1,700 lb / 800 kg",
+            "Bed Capacity": "15 ft^3 / 0.43 m^3",
+            "Weight": "1,230 lb / 560 kg",
+            "Overall Length": "97 in / 245 cm",
+            "Overall Width": "38 in / 97 cm"
+        }
     }
 ]
