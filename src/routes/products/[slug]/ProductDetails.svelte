@@ -93,7 +93,7 @@
         </div>
         {#if product.video}
             <div class="h-96 w-full md:w-1/1 xl:w-1/2 py-6">
-                <p class="text-xl font-bold sm:text-2xl">Video Demo</p>
+                <p class="text-xl font-bold sm:text-2xl"> </p>
                 <iframe
                     class="w-full h-full object-cover"
                     title=" "
@@ -116,19 +116,7 @@
         </div>
         <div class="prose max-w-none text-justify text-xs mt-8">
             <p>
-                <b>Safety Warning:</b> Improper use of the equipment can lead to
-                severe injury and death. Equipment is to be operated exclusively
-                by a trained individual over the age of 18. Personal protective equipment
-                such as hard hats, high visibility safety vests, eye protection,
-                hearing protection, and steel toe boots are required. The purchaser
-                or any operator of any equipment sold, rented, or in any other capacity
-                associated with Beorn LLC. or its members is responsible for any
-                property damage, individual harm, burns, electrocution, or other
-                physical injury that results from the use of said equipment in any
-                way shape or form. Before any digging is performed on a site a survey
-                must be done by all relevant utility companies to ensure that all
-                utilities are clearly marked and proper steps are taken to prevent
-                the damage of said utilities or underground structures.
+                <b> </b>  
             </p>
         </div>
     </div>
