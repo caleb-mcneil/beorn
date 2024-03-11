@@ -24,45 +24,6 @@
         }
     },
     {
-        "title": "SE17P Mini Excavator 3,700 lb",
-        "slug": "se17p",
-        "description": "The SE17P mini excavator is the perfect tool to transform your business or property. The pilot valve controls provide a more ergonomic, comfortable, smoother, and quicker operation of the machine compared to the standard valves. This machine can trench up to 6.5 ft deep with ease, tear out landscaping or underbrush, and move bulk material. Never pick up a shovel again and tackle projects that seemed undoable by hand.  Rotate 360° to place material exactly where you  need it  when the project is done, trenches can be effortlessly filled with the backfill blade. ",
-        "price": "$9,800 (custom order only)",
-        "video": "https://www.youtube.com/embed/3Akmo41OM0o?si=kglV_w5U-7nApAIX",
-        "stats": {
-            "Weight": "3,700 lb / 1,700 kg",
-            "Overall Length": "118 in / 299 cm",
-            "Overall Width": "44 in / 111 cm",
-            "Overall Height": "87 in / 220 cm,",
-            "Track Length": "54 in / 137 cm",
-            "Ground Speed": "2.2 mph / 3.5 kph",
-            "Engine Brand": "Briggs and Stratton",
-            "Engine Power": "13.5 hp / 10 kW",
-            "Fuel": "Gasoline",
-            "Fuel Capacity": "1.7 gal / 6.4 L",
-            "Auxiliary Hydraulic Flow": "7.1 gpm / 27 L/min",
-            "Break Out Force": "3,259 lbf / 14.5 kn",
-            "Digging Radius": "138 in / 350 cm",
-            "Digging Depth": "75 in / 190 cm",
-            "Backfill Blade Width": "44 in / 111 cm",
-            "Standard Bucket Width": "16 in / 40 cm (Toothed)",
-            "Standard Bucket Capacity": "1.2 ft^3 / .035 m^3",
-            "ROPs (Rollover Protection Structures)": "Yes"
-        },
-                "compatibleProducts": [
-            "htse17",
-            "sqc01",
-            "tb06",
-            "r14",
-            "asb30",
-            "sb24",
-            "tb08",
-            "am01h30",
-            "ab12d36h30",
-            "ab07d36h30"
-        ]
-    },
-    {
         "title": "SE17 Mini Excavator 3,700 lb",
         "slug": "se17",
         "description": "The SE17 mini excavator is the perfect tool to transform your business or property. This machine can trench up to 6.5 ft deep with ease, tear out landscaping or underbrush, and move bulk material. Never pick up a shovel again and tackle projects that seemed undoable by hand.  Rotate 360° to place material exactly where you  need it  when the project is done, trenches can be effortlessly filled with the backfill blade. ",
