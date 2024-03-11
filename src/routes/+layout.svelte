@@ -89,10 +89,17 @@
                 <div class="px-3 md:px-0">
                     <h3 class="font-bold text-gray-900">About Us</h3>
                     <p class="py-4">
-                        We bring reliable low cost equipment to the everyday
-                        consumer. Our prices give you the ability to use new
-                        powerful equipment in your life. Contact us today to get
-                        your equipment and attachments.
+                        Beorn LLC, your premier destination for precision CNC machining 
+                        services. With state-of-the-art technology and a skilled team, 
+                        we deliver top-quality parts and components with precision and 
+                        efficiency. Specializing in prototyping, small-batch, and large-scale 
+                        production, we tailor solutions to meet your unique needs. Our 
+                        commitment to excellence ensures superior craftsmanship and attention 
+                        to detail in every project. From concept to completion, we prioritize 
+                        clear communication and transparency. At Beorn LLC, customer satisfaction 
+                        is paramount. Build with confidence knowing you have a reliable partner 
+                        dedicated to your success. Contact us today to experience the precision 
+                        and quality of Beorn LLC.
                     </p>
                 </div>
             </div>
