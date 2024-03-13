@@ -18,14 +18,7 @@
         "slug": "Lathe_CNC",
         "description": "Experience precision in every turn with our CNC lathe services. At Beorn LLC, we specialize in delivering top-notch craftsmanship tailored to your needs. From prototyping to production, our state-of-the-art equipment ensures accuracy and consistency. Whether you require intricate components or high-volume runs, we guarantee superior quality and fast turnaround times. Trust us to bring your projects to life with precision and efficiency. Contact us today to discuss your CNC lathe requirements and discover the difference of working with Beorn LLC.",
         "price": " ",
-        "video": "https://www.youtube.com/embed/kUHqh6LybvQ",
-        "stats": {
-            "Bed Payload": "1,700 lb / 800 kg",
-            "Bed Capacity": "15 ft^3 / 0.43 m^3",
-            "Weight": "1,230 lb / 560 kg",
-            "Overall Length": "97 in / 245 cm",
-            "Overall Width": "38 in / 97 cm"
-        }
+        "video": "https://www.youtube.com/embed/kUHqh6LybvQ"
     },
         {
         "title": "4 Axix Milling",
