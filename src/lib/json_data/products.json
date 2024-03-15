@@ -40,5 +40,19 @@
             "Overall Length": "97 in / 245 cm",
             "Overall Width": "38 in / 97 cm"
         }
+    },
+        {
+        "title": "Drafting and 2D Design",
+        "slug": "Drafting",
+        "description": "Discover precision with Beorn LLC's 2D drafting services. Our adept draftsmen meticulously tailor detailed plans to your specifications. From engineering schematics to technical diagrams, we ensure accuracy and clarity in every design. Rely on Beorn LLC for professional 2D drafting solutions that breathe life into your concepts. Reach out today to discuss your drafting needs and witness the dedication of our team firsthand.",
+        "price": " ",
+        "video": "https://www.youtube.com/embed/kUHqh6LybvQ",
+        "stats": {
+            "Bed Payload": "1,700 lb / 800 kg",
+            "Bed Capacity": "15 ft^3 / 0.43 m^3",
+            "Weight": "1,230 lb / 560 kg",
+            "Overall Length": "97 in / 245 cm",
+            "Overall Width": "38 in / 97 cm"
+        }
     }
 ]
